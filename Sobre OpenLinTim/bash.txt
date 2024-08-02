@@ -1,0 +1,16 @@
+##################### Fijar variables de entorno para Gurobi ###############################
+#### Modificar las versiones de gurobi1002 a la utilizada
+
+export GUROBI_HOME=/opt/gurobi1002/linux64
+export CLASSPATH=${GUROBI_HOME}/lib/gurobi.jar:${CLASSPATH}
+export LD_LIBRARY_PATH=${GUROBI_HOME}/lib/:${LD_LIBRARY_PATH}
+export PATH=${GUROBI_HOME}/bin:${PATH}
+
+# get a persistent MAC address for bond0 and rename it eth1
+mac=00:15:5d:e8:7f:f5
+if ! ip link show | grep -q $mac; then
+  sudo ip link set dev eth1 down
+  sudo ip link set dev eth1 address $mac
+  #sudo ip link set dev eth0 name eth1
+  #sudo ip link set dev eth1 up
+fi

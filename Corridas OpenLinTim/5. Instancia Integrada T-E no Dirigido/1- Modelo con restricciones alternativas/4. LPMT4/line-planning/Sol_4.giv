@@ -1,0 +1,6953 @@
+Solution of column generation algorithm
+Number of iterations: 2
+Od costs:2.0
+Budget:567.0
+Total time : 4691
+
+Objective Value : 3116089.204526665
+Line variables:
+1; 1.0
+2; 1.0
+3; 1.0
+4; 1.0
+5; 1.0
+6; 1.0
+7; 1.0
+8; 1.0
+9; 1.0
+10; 1.0
+11; 1.0
+Path variables:
+Od pair 0 : 
+1.0
+0.0
+Od pair 1 : 
+1.0
+0.0
+Od pair 2 : 
+1.0
+0.0
+Od pair 3 : 
+1.0
+0.0
+Od pair 4 : 
+1.0
+0.0
+Od pair 5 : 
+1.0
+0.0
+Od pair 6 : 
+1.0
+0.0
+Od pair 7 : 
+1.0
+0.0
+Od pair 8 : 
+1.0
+0.0
+Od pair 9 : 
+1.0
+0.0
+Od pair 10 : 
+1.0
+0.0
+Od pair 11 : 
+1.0
+0.0
+Od pair 12 : 
+1.0
+0.0
+Od pair 13 : 
+1.0
+0.0
+Od pair 14 : 
+1.0
+0.0
+Od pair 15 : 
+1.0
+0.0
+Od pair 16 : 
+1.0
+0.0
+Od pair 17 : 
+1.0
+0.0
+Od pair 18 : 
+1.0
+0.0
+Od pair 19 : 
+1.0
+0.0
+Od pair 20 : 
+1.0
+0.0
+Od pair 21 : 
+1.0
+0.0
+Od pair 22 : 
+1.0
+0.0
+Od pair 23 : 
+1.0
+0.0
+Od pair 24 : 
+1.0
+0.0
+Od pair 25 : 
+1.0
+0.0
+Od pair 26 : 
+1.0
+0.0
+Od pair 27 : 
+1.0
+0.0
+Od pair 28 : 
+1.0
+0.0
+Od pair 29 : 
+1.0
+0.0
+Od pair 30 : 
+1.0
+0.0
+Od pair 31 : 
+1.0
+0.0
+Od pair 32 : 
+1.0
+0.0
+Od pair 33 : 
+1.0
+0.0
+Od pair 34 : 
+1.0
+0.0
+Od pair 35 : 
+1.0
+0.0
+Od pair 36 : 
+1.0
+0.0
+Od pair 37 : 
+1.0
+0.0
+Od pair 38 : 
+1.0
+0.0
+Od pair 39 : 
+1.0
+0.0
+Od pair 40 : 
+1.0
+0.0
+Od pair 41 : 
+1.0
+0.0
+Od pair 42 : 
+1.0
+0.0
+Od pair 43 : 
+1.0
+0.0
+Od pair 44 : 
+1.0
+0.0
+Od pair 45 : 
+1.0
+0.0
+Od pair 46 : 
+1.0
+0.0
+Od pair 47 : 
+1.0
+0.0
+Od pair 48 : 
+1.0
+0.0
+Od pair 49 : 
+1.0
+0.0
+Od pair 50 : 
+1.0
+0.0
+Od pair 51 : 
+1.0
+0.0
+Od pair 52 : 
+1.0
+0.0
+Od pair 53 : 
+1.0
+0.0
+Od pair 54 : 
+1.0
+0.0
+Od pair 55 : 
+1.0
+0.0
+Od pair 56 : 
+1.0
+0.0
+Od pair 57 : 
+1.0
+0.0
+Od pair 58 : 
+1.0
+0.0
+Od pair 59 : 
+1.0
+0.0
+Od pair 60 : 
+1.0
+0.0
+Od pair 61 : 
+1.0
+0.0
+Od pair 62 : 
+1.0
+0.0
+Od pair 63 : 
+1.0
+0.0
+Od pair 64 : 
+1.0
+0.0
+Od pair 65 : 
+1.0
+0.0
+Od pair 66 : 
+1.0
+0.0
+Od pair 67 : 
+1.0
+0.0
+Od pair 68 : 
+1.0
+0.0
+Od pair 69 : 
+1.0
+0.0
+Od pair 70 : 
+1.0
+0.0
+Od pair 71 : 
+1.0
+0.0
+Od pair 72 : 
+1.0
+0.0
+Od pair 73 : 
+1.0
+0.0
+Od pair 74 : 
+1.0
+0.0
+Od pair 75 : 
+1.0
+0.0
+Od pair 76 : 
+1.0
+0.0
+Od pair 77 : 
+1.0
+0.0
+Od pair 78 : 
+1.0
+0.0
+Od pair 79 : 
+1.0
+0.0
+Od pair 80 : 
+1.0
+0.0
+Od pair 81 : 
+1.0
+0.0
+Od pair 82 : 
+1.0
+0.0
+Od pair 83 : 
+1.0
+0.0
+Od pair 84 : 
+1.0
+0.0
+Od pair 85 : 
+1.0
+0.0
+Od pair 86 : 
+1.0
+0.0
+Od pair 87 : 
+1.0
+0.0
+Od pair 88 : 
+1.0
+0.0
+Od pair 89 : 
+1.0
+0.0
+Od pair 90 : 
+1.0
+0.0
+Od pair 91 : 
+1.0
+0.0
+Od pair 92 : 
+1.0
+0.0
+Od pair 93 : 
+1.0
+0.0
+Od pair 94 : 
+1.0
+0.0
+Od pair 95 : 
+1.0
+0.0
+Od pair 96 : 
+1.0
+0.0
+Od pair 97 : 
+1.0
+0.0
+Od pair 98 : 
+1.0
+0.0
+Od pair 99 : 
+1.0
+0.0
+Od pair 100 : 
+1.0
+0.0
+Od pair 101 : 
+1.0
+0.0
+Od pair 102 : 
+1.0
+0.0
+Od pair 103 : 
+1.0
+0.0
+Od pair 104 : 
+1.0
+0.0
+Od pair 105 : 
+1.0
+0.0
+Od pair 106 : 
+1.0
+0.0
+Od pair 107 : 
+1.0
+0.0
+Od pair 108 : 
+1.0
+0.0
+Od pair 109 : 
+1.0
+0.0
+Od pair 110 : 
+1.0
+0.0
+Od pair 111 : 
+1.0
+0.0
+Od pair 112 : 
+1.0
+0.0
+Od pair 113 : 
+1.0
+0.0
+Od pair 114 : 
+1.0
+0.0
+Od pair 115 : 
+1.0
+0.0
+Od pair 116 : 
+1.0
+0.0
+Od pair 117 : 
+1.0
+0.0
+Od pair 118 : 
+1.0
+0.0
+Od pair 119 : 
+1.0
+0.0
+Od pair 120 : 
+1.0
+0.0
+Od pair 121 : 
+1.0
+0.0
+Od pair 122 : 
+1.0
+0.0
+Od pair 123 : 
+1.0
+0.0
+Od pair 124 : 
+1.0
+0.0
+Od pair 125 : 
+1.0
+0.0
+Od pair 126 : 
+1.0
+0.0
+Od pair 127 : 
+1.0
+0.0
+Od pair 128 : 
+1.0
+0.0
+Od pair 129 : 
+1.0
+0.0
+Od pair 130 : 
+1.0
+0.0
+Od pair 131 : 
+1.0
+0.0
+Od pair 132 : 
+1.0
+0.0
+Od pair 133 : 
+1.0
+0.0
+Od pair 134 : 
+1.0
+0.0
+Od pair 135 : 
+1.0
+0.0
+Od pair 136 : 
+1.0
+0.0
+Od pair 137 : 
+1.0
+0.0
+Od pair 138 : 
+1.0
+0.0
+Od pair 139 : 
+1.0
+0.0
+Od pair 140 : 
+1.0
+0.0
+Od pair 141 : 
+1.0
+0.0
+Od pair 142 : 
+1.0
+0.0
+Od pair 143 : 
+1.0
+0.0
+Od pair 144 : 
+1.0
+0.0
+Od pair 145 : 
+1.0
+0.0
+Od pair 146 : 
+1.0
+0.0
+Od pair 147 : 
+1.0
+0.0
+Od pair 148 : 
+1.0
+0.0
+Od pair 149 : 
+1.0
+0.0
+Od pair 150 : 
+1.0
+0.0
+Od pair 151 : 
+1.0
+0.0
+Od pair 152 : 
+1.0
+0.0
+Od pair 153 : 
+1.0
+0.0
+Od pair 154 : 
+1.0
+0.0
+Od pair 155 : 
+1.0
+0.0
+Od pair 156 : 
+1.0
+0.0
+Od pair 157 : 
+1.0
+0.0
+Od pair 158 : 
+1.0
+0.0
+Od pair 159 : 
+1.0
+0.0
+Od pair 160 : 
+1.0
+0.0
+Od pair 161 : 
+1.0
+0.0
+Od pair 162 : 
+1.0
+0.0
+Od pair 163 : 
+1.0
+0.0
+Od pair 164 : 
+1.0
+0.0
+Od pair 165 : 
+1.0
+0.0
+Od pair 166 : 
+1.0
+0.0
+Od pair 167 : 
+1.0
+0.0
+Od pair 168 : 
+1.0
+0.0
+Od pair 169 : 
+1.0
+0.0
+Od pair 170 : 
+1.0
+0.0
+Od pair 171 : 
+1.0
+0.0
+Od pair 172 : 
+1.0
+0.0
+Od pair 173 : 
+1.0
+0.0
+Od pair 174 : 
+1.0
+0.0
+Od pair 175 : 
+1.0
+0.0
+Od pair 176 : 
+1.0
+0.0
+Od pair 177 : 
+1.0
+0.0
+Od pair 178 : 
+1.0
+0.0
+Od pair 179 : 
+1.0
+0.0
+Od pair 180 : 
+1.0
+0.0
+Od pair 181 : 
+1.0
+0.0
+Od pair 182 : 
+1.0
+0.0
+Od pair 183 : 
+1.0
+0.0
+Od pair 184 : 
+1.0
+0.0
+Od pair 185 : 
+1.0
+0.0
+Od pair 186 : 
+1.0
+0.0
+Od pair 187 : 
+1.0
+0.0
+Od pair 188 : 
+1.0
+0.0
+Od pair 189 : 
+1.0
+0.0
+Od pair 190 : 
+1.0
+0.0
+Od pair 191 : 
+1.0
+0.0
+Od pair 192 : 
+1.0
+0.0
+Od pair 193 : 
+1.0
+0.0
+Od pair 194 : 
+1.0
+0.0
+Od pair 195 : 
+1.0
+0.0
+Od pair 196 : 
+1.0
+0.0
+Od pair 197 : 
+1.0
+0.0
+Od pair 198 : 
+1.0
+0.0
+Od pair 199 : 
+1.0
+0.0
+Od pair 200 : 
+1.0
+0.0
+Od pair 201 : 
+1.0
+0.0
+Od pair 202 : 
+1.0
+0.0
+Od pair 203 : 
+1.0
+0.0
+Od pair 204 : 
+1.0
+0.0
+Od pair 205 : 
+1.0
+0.0
+Od pair 206 : 
+1.0
+0.0
+Od pair 207 : 
+1.0
+0.0
+Od pair 208 : 
+1.0
+0.0
+Od pair 209 : 
+1.0
+0.0
+Od pair 210 : 
+1.0
+0.0
+Od pair 211 : 
+1.0
+0.0
+Od pair 212 : 
+1.0
+0.0
+Od pair 213 : 
+1.0
+0.0
+Od pair 214 : 
+1.0
+0.0
+Od pair 215 : 
+1.0
+0.0
+Od pair 216 : 
+1.0
+0.0
+Od pair 217 : 
+1.0
+0.0
+Od pair 218 : 
+1.0
+0.0
+Od pair 219 : 
+1.0
+0.0
+Od pair 220 : 
+1.0
+0.0
+Od pair 221 : 
+1.0
+0.0
+Od pair 222 : 
+1.0
+0.0
+Od pair 223 : 
+1.0
+0.0
+Od pair 224 : 
+1.0
+0.0
+Od pair 225 : 
+1.0
+0.0
+Od pair 226 : 
+1.0
+0.0
+Od pair 227 : 
+1.0
+0.0
+Od pair 228 : 
+1.0
+0.0
+Od pair 229 : 
+1.0
+0.0
+Od pair 230 : 
+1.0
+0.0
+Od pair 231 : 
+1.0
+0.0
+Od pair 232 : 
+1.0
+0.0
+Od pair 233 : 
+1.0
+0.0
+Od pair 234 : 
+1.0
+0.0
+Od pair 235 : 
+1.0
+0.0
+Od pair 236 : 
+1.0
+0.0
+Od pair 237 : 
+1.0
+0.0
+Od pair 238 : 
+1.0
+0.0
+Od pair 239 : 
+1.0
+0.0
+Od pair 240 : 
+1.0
+0.0
+Od pair 241 : 
+1.0
+0.0
+Od pair 242 : 
+1.0
+0.0
+Od pair 243 : 
+1.0
+0.0
+Od pair 244 : 
+1.0
+0.0
+Od pair 245 : 
+1.0
+0.0
+Od pair 246 : 
+1.0
+0.0
+Od pair 247 : 
+1.0
+0.0
+Od pair 248 : 
+1.0
+0.0
+Od pair 249 : 
+1.0
+0.0
+Od pair 250 : 
+1.0
+0.0
+Od pair 251 : 
+1.0
+0.0
+Od pair 252 : 
+1.0
+0.0
+Od pair 253 : 
+1.0
+0.0
+Od pair 254 : 
+1.0
+0.0
+Od pair 255 : 
+1.0
+0.0
+Od pair 256 : 
+1.0
+0.0
+Od pair 257 : 
+1.0
+0.0
+Od pair 258 : 
+1.0
+0.0
+Od pair 259 : 
+1.0
+0.0
+Od pair 260 : 
+1.0
+0.0
+Od pair 261 : 
+1.0
+0.0
+Od pair 262 : 
+1.0
+0.0
+Od pair 263 : 
+1.0
+0.0
+Od pair 264 : 
+1.0
+0.0
+Od pair 265 : 
+1.0
+0.0
+Od pair 266 : 
+1.0
+0.0
+Od pair 267 : 
+1.0
+0.0
+Od pair 268 : 
+1.0
+0.0
+Od pair 269 : 
+1.0
+0.0
+Od pair 270 : 
+1.0
+0.0
+Od pair 271 : 
+1.0
+0.0
+Od pair 272 : 
+1.0
+0.0
+Od pair 273 : 
+1.0
+0.0
+Od pair 274 : 
+1.0
+0.0
+Od pair 275 : 
+1.0
+0.0
+Od pair 276 : 
+1.0
+0.0
+Od pair 277 : 
+1.0
+0.0
+Od pair 278 : 
+1.0
+0.0
+Od pair 279 : 
+1.0
+0.0
+Od pair 280 : 
+1.0
+0.0
+Od pair 281 : 
+1.0
+0.0
+Od pair 282 : 
+1.0
+0.0
+Od pair 283 : 
+1.0
+0.0
+Od pair 284 : 
+1.0
+0.0
+Od pair 285 : 
+1.0
+0.0
+Od pair 286 : 
+1.0
+0.0
+Od pair 287 : 
+1.0
+0.0
+Od pair 288 : 
+1.0
+0.0
+Od pair 289 : 
+1.0
+0.0
+Od pair 290 : 
+1.0
+0.0
+Od pair 291 : 
+1.0
+0.0
+Od pair 292 : 
+1.0
+0.0
+Od pair 293 : 
+1.0
+0.0
+Od pair 294 : 
+1.0
+0.0
+Od pair 295 : 
+1.0
+0.0
+Od pair 296 : 
+1.0
+0.0
+Od pair 297 : 
+1.0
+0.0
+Od pair 298 : 
+1.0
+0.0
+Od pair 299 : 
+1.0
+0.0
+Od pair 300 : 
+1.0
+0.0
+Od pair 301 : 
+1.0
+0.0
+Od pair 302 : 
+1.0
+0.0
+Od pair 303 : 
+1.0
+0.0
+Od pair 304 : 
+1.0
+0.0
+Od pair 305 : 
+1.0
+0.0
+Od pair 306 : 
+1.0
+0.0
+Od pair 307 : 
+1.0
+0.0
+Od pair 308 : 
+1.0
+0.0
+Od pair 309 : 
+1.0
+0.0
+Od pair 310 : 
+1.0
+0.0
+Od pair 311 : 
+1.0
+0.0
+Od pair 312 : 
+1.0
+0.0
+Od pair 313 : 
+1.0
+0.0
+Od pair 314 : 
+1.0
+0.0
+Od pair 315 : 
+1.0
+0.0
+Od pair 316 : 
+1.0
+0.0
+Od pair 317 : 
+1.0
+0.0
+Od pair 318 : 
+1.0
+0.0
+Od pair 319 : 
+1.0
+0.0
+Od pair 320 : 
+1.0
+0.0
+Od pair 321 : 
+1.0
+0.0
+Od pair 322 : 
+1.0
+0.0
+Od pair 323 : 
+1.0
+0.0
+Od pair 324 : 
+1.0
+0.0
+Od pair 325 : 
+1.0
+0.0
+Od pair 326 : 
+1.0
+0.0
+Od pair 327 : 
+1.0
+0.0
+Od pair 328 : 
+1.0
+0.0
+Od pair 329 : 
+1.0
+0.0
+Od pair 330 : 
+1.0
+0.0
+Od pair 331 : 
+1.0
+0.0
+Od pair 332 : 
+1.0
+0.0
+Od pair 333 : 
+1.0
+0.0
+Od pair 334 : 
+1.0
+0.0
+Od pair 335 : 
+1.0
+0.0
+Od pair 336 : 
+1.0
+0.0
+Od pair 337 : 
+1.0
+0.0
+Od pair 338 : 
+1.0
+0.0
+Od pair 339 : 
+1.0
+0.0
+Od pair 340 : 
+1.0
+0.0
+Od pair 341 : 
+1.0
+0.0
+Od pair 342 : 
+1.0
+0.0
+Od pair 343 : 
+1.0
+0.0
+Od pair 344 : 
+1.0
+0.0
+Od pair 345 : 
+1.0
+0.0
+Od pair 346 : 
+1.0
+0.0
+Od pair 347 : 
+1.0
+0.0
+Od pair 348 : 
+1.0
+0.0
+Od pair 349 : 
+1.0
+0.0
+Od pair 350 : 
+1.0
+0.0
+Od pair 351 : 
+1.0
+0.0
+Od pair 352 : 
+1.0
+0.0
+Od pair 353 : 
+1.0
+0.0
+Od pair 354 : 
+1.0
+0.0
+Od pair 355 : 
+1.0
+0.0
+Od pair 356 : 
+1.0
+0.0
+Od pair 357 : 
+1.0
+0.0
+Od pair 358 : 
+1.0
+0.0
+Od pair 359 : 
+1.0
+0.0
+Od pair 360 : 
+1.0
+0.0
+Od pair 361 : 
+1.0
+0.0
+Od pair 362 : 
+1.0
+0.0
+Od pair 363 : 
+1.0
+0.0
+Od pair 364 : 
+1.0
+0.0
+Od pair 365 : 
+1.0
+0.0
+Od pair 366 : 
+1.0
+0.0
+Od pair 367 : 
+1.0
+0.0
+Od pair 368 : 
+1.0
+0.0
+Od pair 369 : 
+1.0
+0.0
+Od pair 370 : 
+1.0
+0.0
+Od pair 371 : 
+1.0
+0.0
+Od pair 372 : 
+1.0
+0.0
+Od pair 373 : 
+1.0
+0.0
+Od pair 374 : 
+1.0
+0.0
+Od pair 375 : 
+1.0
+0.0
+Od pair 376 : 
+1.0
+0.0
+Od pair 377 : 
+1.0
+0.0
+Od pair 378 : 
+1.0
+0.0
+Od pair 379 : 
+1.0
+0.0
+Od pair 380 : 
+1.0
+0.0
+Od pair 381 : 
+1.0
+0.0
+Od pair 382 : 
+1.0
+0.0
+Od pair 383 : 
+1.0
+0.0
+Od pair 384 : 
+1.0
+0.0
+Od pair 385 : 
+1.0
+0.0
+Od pair 386 : 
+1.0
+0.0
+Od pair 387 : 
+1.0
+0.0
+Od pair 388 : 
+1.0
+0.0
+Od pair 389 : 
+1.0
+0.0
+Od pair 390 : 
+1.0
+0.0
+Od pair 391 : 
+1.0
+0.0
+Od pair 392 : 
+1.0
+0.0
+Od pair 393 : 
+1.0
+0.0
+Od pair 394 : 
+1.0
+0.0
+Od pair 395 : 
+1.0
+0.0
+Od pair 396 : 
+1.0
+0.0
+Od pair 397 : 
+1.0
+0.0
+Od pair 398 : 
+1.0
+0.0
+Od pair 399 : 
+1.0
+0.0
+Od pair 400 : 
+1.0
+0.0
+Od pair 401 : 
+1.0
+0.0
+Od pair 402 : 
+1.0
+0.0
+Od pair 403 : 
+1.0
+0.0
+Od pair 404 : 
+1.0
+0.0
+Od pair 405 : 
+1.0
+0.0
+Od pair 406 : 
+1.0
+0.0
+Od pair 407 : 
+1.0
+0.0
+Od pair 408 : 
+1.0
+0.0
+Od pair 409 : 
+1.0
+0.0
+Od pair 410 : 
+1.0
+0.0
+Od pair 411 : 
+1.0
+0.0
+Od pair 412 : 
+1.0
+0.0
+Od pair 413 : 
+1.0
+0.0
+Od pair 414 : 
+1.0
+0.0
+Od pair 415 : 
+1.0
+0.0
+Od pair 416 : 
+1.0
+0.0
+Od pair 417 : 
+1.0
+0.0
+Od pair 418 : 
+1.0
+0.0
+Od pair 419 : 
+1.0
+0.0
+Od pair 420 : 
+1.0
+0.0
+Od pair 421 : 
+1.0
+0.0
+Od pair 422 : 
+1.0
+0.0
+Od pair 423 : 
+1.0
+0.0
+Od pair 424 : 
+1.0
+0.0
+Od pair 425 : 
+1.0
+0.0
+Od pair 426 : 
+1.0
+0.0
+Od pair 427 : 
+1.0
+0.0
+Od pair 428 : 
+1.0
+0.0
+Od pair 429 : 
+1.0
+0.0
+Od pair 430 : 
+1.0
+0.0
+Od pair 431 : 
+1.0
+0.0
+Od pair 432 : 
+1.0
+0.0
+Od pair 433 : 
+1.0
+0.0
+Od pair 434 : 
+1.0
+0.0
+Od pair 435 : 
+1.0
+0.0
+Od pair 436 : 
+1.0
+0.0
+Od pair 437 : 
+1.0
+0.0
+Od pair 438 : 
+1.0
+0.0
+Od pair 439 : 
+1.0
+0.0
+Od pair 440 : 
+1.0
+0.0
+Od pair 441 : 
+1.0
+0.0
+Od pair 442 : 
+1.0
+0.0
+Od pair 443 : 
+1.0
+0.0
+Od pair 444 : 
+1.0
+0.0
+Od pair 445 : 
+1.0
+0.0
+Od pair 446 : 
+1.0
+0.0
+Od pair 447 : 
+1.0
+0.0
+Od pair 448 : 
+1.0
+0.0
+Od pair 449 : 
+1.0
+0.0
+Od pair 450 : 
+1.0
+0.0
+Od pair 451 : 
+1.0
+0.0
+Od pair 452 : 
+1.0
+0.0
+Od pair 453 : 
+1.0
+0.0
+Od pair 454 : 
+1.0
+0.0
+Od pair 455 : 
+1.0
+0.0
+Od pair 456 : 
+1.0
+0.0
+Od pair 457 : 
+1.0
+0.0
+Od pair 458 : 
+1.0
+0.0
+Od pair 459 : 
+1.0
+0.0
+Od pair 460 : 
+1.0
+0.0
+Od pair 461 : 
+1.0
+0.0
+Od pair 462 : 
+1.0
+0.0
+Od pair 463 : 
+1.0
+0.0
+Od pair 464 : 
+1.0
+0.0
+Od pair 465 : 
+1.0
+0.0
+Od pair 466 : 
+1.0
+0.0
+Od pair 467 : 
+1.0
+0.0
+Od pair 468 : 
+1.0
+0.0
+Od pair 469 : 
+1.0
+0.0
+Od pair 470 : 
+1.0
+0.0
+Od pair 471 : 
+1.0
+0.0
+Od pair 472 : 
+1.0
+0.0
+Od pair 473 : 
+1.0
+0.0
+Od pair 474 : 
+1.0
+0.0
+Od pair 475 : 
+1.0
+0.0
+Od pair 476 : 
+1.0
+0.0
+Od pair 477 : 
+1.0
+0.0
+Od pair 478 : 
+1.0
+0.0
+Od pair 479 : 
+1.0
+0.0
+Od pair 480 : 
+1.0
+0.0
+Od pair 481 : 
+1.0
+0.0
+Od pair 482 : 
+1.0
+0.0
+Od pair 483 : 
+1.0
+0.0
+Od pair 484 : 
+1.0
+0.0
+Od pair 485 : 
+1.0
+0.0
+Od pair 486 : 
+1.0
+0.0
+Od pair 487 : 
+1.0
+0.0
+Od pair 488 : 
+1.0
+0.0
+Od pair 489 : 
+1.0
+0.0
+Od pair 490 : 
+1.0
+0.0
+Od pair 491 : 
+1.0
+0.0
+Od pair 492 : 
+1.0
+0.0
+Od pair 493 : 
+1.0
+0.0
+Od pair 494 : 
+1.0
+0.0
+Od pair 495 : 
+1.0
+0.0
+Od pair 496 : 
+1.0
+0.0
+Od pair 497 : 
+1.0
+0.0
+Od pair 498 : 
+1.0
+0.0
+Od pair 499 : 
+1.0
+0.0
+Od pair 500 : 
+1.0
+0.0
+Od pair 501 : 
+1.0
+0.0
+Od pair 502 : 
+1.0
+0.0
+Od pair 503 : 
+1.0
+0.0
+Od pair 504 : 
+1.0
+0.0
+Od pair 505 : 
+1.0
+0.0
+Od pair 506 : 
+1.0
+0.0
+Od pair 507 : 
+1.0
+0.0
+Od pair 508 : 
+1.0
+0.0
+Od pair 509 : 
+1.0
+0.0
+Od pair 510 : 
+1.0
+0.0
+Od pair 511 : 
+1.0
+0.0
+Od pair 512 : 
+1.0
+0.0
+Od pair 513 : 
+1.0
+0.0
+Od pair 514 : 
+1.0
+0.0
+Od pair 515 : 
+1.0
+0.0
+Od pair 516 : 
+1.0
+0.0
+Od pair 517 : 
+1.0
+0.0
+Od pair 518 : 
+1.0
+0.0
+Od pair 519 : 
+1.0
+0.0
+Od pair 520 : 
+1.0
+0.0
+Od pair 521 : 
+1.0
+0.0
+Od pair 522 : 
+1.0
+0.0
+Od pair 523 : 
+1.0
+0.0
+Od pair 524 : 
+1.0
+0.0
+Od pair 525 : 
+1.0
+0.0
+Od pair 526 : 
+1.0
+0.0
+Od pair 527 : 
+1.0
+0.0
+Od pair 528 : 
+1.0
+0.0
+Od pair 529 : 
+1.0
+0.0
+Od pair 530 : 
+1.0
+0.0
+Od pair 531 : 
+1.0
+0.0
+Od pair 532 : 
+1.0
+0.0
+Od pair 533 : 
+1.0
+0.0
+Od pair 534 : 
+1.0
+0.0
+Od pair 535 : 
+1.0
+0.0
+Od pair 536 : 
+1.0
+0.0
+Od pair 537 : 
+1.0
+0.0
+Od pair 538 : 
+1.0
+0.0
+Od pair 539 : 
+1.0
+0.0
+Od pair 540 : 
+1.0
+0.0
+Od pair 541 : 
+1.0
+0.0
+Od pair 542 : 
+1.0
+0.0
+Od pair 543 : 
+1.0
+0.0
+Od pair 544 : 
+1.0
+0.0
+Od pair 545 : 
+1.0
+0.0
+Od pair 546 : 
+1.0
+0.0
+Od pair 547 : 
+1.0
+0.0
+Od pair 548 : 
+1.0
+0.0
+Od pair 549 : 
+1.0
+0.0
+Od pair 550 : 
+1.0
+0.0
+Od pair 551 : 
+1.0
+0.0
+Od pair 552 : 
+1.0
+0.0
+Od pair 553 : 
+1.0
+0.0
+Od pair 554 : 
+1.0
+0.0
+Od pair 555 : 
+1.0
+0.0
+Od pair 556 : 
+1.0
+0.0
+Od pair 557 : 
+1.0
+0.0
+Od pair 558 : 
+1.0
+0.0
+Od pair 559 : 
+1.0
+0.0
+Od pair 560 : 
+1.0
+0.0
+Od pair 561 : 
+1.0
+0.0
+Od pair 562 : 
+1.0
+0.0
+Od pair 563 : 
+1.0
+0.0
+Od pair 564 : 
+1.0
+0.0
+Od pair 565 : 
+1.0
+0.0
+Od pair 566 : 
+1.0
+0.0
+Od pair 567 : 
+1.0
+0.0
+Od pair 568 : 
+1.0
+0.0
+Od pair 569 : 
+1.0
+0.0
+Od pair 570 : 
+1.0
+0.0
+Od pair 571 : 
+1.0
+0.0
+Od pair 572 : 
+1.0
+0.0
+Od pair 573 : 
+1.0
+0.0
+Od pair 574 : 
+1.0
+0.0
+Od pair 575 : 
+1.0
+0.0
+Od pair 576 : 
+1.0
+0.0
+Od pair 577 : 
+1.0
+0.0
+Od pair 578 : 
+1.0
+0.0
+Od pair 579 : 
+1.0
+0.0
+Od pair 580 : 
+1.0
+0.0
+Od pair 581 : 
+1.0
+0.0
+Od pair 582 : 
+1.0
+0.0
+Od pair 583 : 
+1.0
+0.0
+Od pair 584 : 
+1.0
+0.0
+Od pair 585 : 
+1.0
+0.0
+Od pair 586 : 
+1.0
+0.0
+Od pair 587 : 
+1.0
+0.0
+Od pair 588 : 
+1.0
+0.0
+Od pair 589 : 
+1.0
+0.0
+Od pair 590 : 
+1.0
+0.0
+Od pair 591 : 
+1.0
+0.0
+Od pair 592 : 
+1.0
+0.0
+Od pair 593 : 
+1.0
+0.0
+Od pair 594 : 
+1.0
+0.0
+Od pair 595 : 
+1.0
+0.0
+Od pair 596 : 
+1.0
+0.0
+Od pair 597 : 
+1.0
+0.0
+Od pair 598 : 
+1.0
+0.0
+Od pair 599 : 
+1.0
+0.0
+Od pair 600 : 
+1.0
+0.0
+Od pair 601 : 
+1.0
+0.0
+Od pair 602 : 
+1.0
+0.0
+Od pair 603 : 
+1.0
+0.0
+Od pair 604 : 
+1.0
+0.0
+Od pair 605 : 
+1.0
+0.0
+Od pair 606 : 
+1.0
+0.0
+Od pair 607 : 
+1.0
+0.0
+Od pair 608 : 
+1.0
+0.0
+Od pair 609 : 
+1.0
+0.0
+Od pair 610 : 
+1.0
+0.0
+Od pair 611 : 
+1.0
+0.0
+Od pair 612 : 
+1.0
+0.0
+Od pair 613 : 
+1.0
+0.0
+Od pair 614 : 
+1.0
+0.0
+Od pair 615 : 
+1.0
+0.0
+Od pair 616 : 
+1.0
+0.0
+Od pair 617 : 
+1.0
+0.0
+Od pair 618 : 
+1.0
+0.0
+Od pair 619 : 
+1.0
+0.0
+Od pair 620 : 
+1.0
+0.0
+Od pair 621 : 
+1.0
+0.0
+Od pair 622 : 
+1.0
+0.0
+Od pair 623 : 
+1.0
+0.0
+Od pair 624 : 
+1.0
+0.0
+Od pair 625 : 
+1.0
+0.0
+Od pair 626 : 
+1.0
+0.0
+Od pair 627 : 
+1.0
+0.0
+Od pair 628 : 
+1.0
+0.0
+Od pair 629 : 
+1.0
+0.0
+Od pair 630 : 
+1.0
+0.0
+Od pair 631 : 
+1.0
+0.0
+Od pair 632 : 
+1.0
+0.0
+Od pair 633 : 
+1.0
+0.0
+Od pair 634 : 
+1.0
+0.0
+Od pair 635 : 
+1.0
+0.0
+Od pair 636 : 
+1.0
+0.0
+Od pair 637 : 
+1.0
+0.0
+Od pair 638 : 
+1.0
+0.0
+Od pair 639 : 
+1.0
+0.0
+Od pair 640 : 
+1.0
+0.0
+Od pair 641 : 
+1.0
+0.0
+Od pair 642 : 
+1.0
+0.0
+Od pair 643 : 
+1.0
+0.0
+Od pair 644 : 
+1.0
+0.0
+Od pair 645 : 
+1.0
+0.0
+Od pair 646 : 
+1.0
+0.0
+Od pair 647 : 
+1.0
+0.0
+Od pair 648 : 
+1.0
+0.0
+Od pair 649 : 
+1.0
+0.0
+Od pair 650 : 
+1.0
+0.0
+Od pair 651 : 
+1.0
+0.0
+Od pair 652 : 
+1.0
+0.0
+Od pair 653 : 
+1.0
+0.0
+Od pair 654 : 
+1.0
+0.0
+Od pair 655 : 
+1.0
+0.0
+Od pair 656 : 
+1.0
+0.0
+Od pair 657 : 
+1.0
+0.0
+Od pair 658 : 
+1.0
+0.0
+Od pair 659 : 
+1.0
+0.0
+Od pair 660 : 
+1.0
+0.0
+Od pair 661 : 
+1.0
+0.0
+Od pair 662 : 
+1.0
+0.0
+Od pair 663 : 
+1.0
+0.0
+Od pair 664 : 
+1.0
+0.0
+Od pair 665 : 
+1.0
+0.0
+Od pair 666 : 
+1.0
+0.0
+Od pair 667 : 
+1.0
+0.0
+Od pair 668 : 
+1.0
+0.0
+Od pair 669 : 
+1.0
+0.0
+Od pair 670 : 
+1.0
+0.0
+Od pair 671 : 
+1.0
+0.0
+Od pair 672 : 
+1.0
+0.0
+Od pair 673 : 
+1.0
+0.0
+Od pair 674 : 
+1.0
+0.0
+Od pair 675 : 
+1.0
+0.0
+Od pair 676 : 
+1.0
+0.0
+Od pair 677 : 
+1.0
+0.0
+Od pair 678 : 
+1.0
+0.0
+Od pair 679 : 
+1.0
+0.0
+Od pair 680 : 
+1.0
+0.0
+Od pair 681 : 
+1.0
+0.0
+Od pair 682 : 
+1.0
+0.0
+Od pair 683 : 
+1.0
+0.0
+Od pair 684 : 
+1.0
+0.0
+Od pair 685 : 
+1.0
+0.0
+Od pair 686 : 
+1.0
+0.0
+Od pair 687 : 
+1.0
+0.0
+Od pair 688 : 
+1.0
+0.0
+Od pair 689 : 
+1.0
+0.0
+Od pair 690 : 
+1.0
+0.0
+Od pair 691 : 
+1.0
+0.0
+Od pair 692 : 
+1.0
+0.0
+Od pair 693 : 
+1.0
+0.0
+Od pair 694 : 
+1.0
+0.0
+Od pair 695 : 
+1.0
+0.0
+Od pair 696 : 
+1.0
+0.0
+Od pair 697 : 
+1.0
+0.0
+Od pair 698 : 
+1.0
+0.0
+Od pair 699 : 
+1.0
+0.0
+Od pair 700 : 
+1.0
+0.0
+Od pair 701 : 
+1.0
+0.0
+Od pair 702 : 
+1.0
+0.0
+Od pair 703 : 
+1.0
+0.0
+Od pair 704 : 
+1.0
+0.0
+Od pair 705 : 
+1.0
+0.0
+Od pair 706 : 
+1.0
+0.0
+Od pair 707 : 
+1.0
+0.0
+Od pair 708 : 
+1.0
+0.0
+Od pair 709 : 
+1.0
+0.0
+Od pair 710 : 
+1.0
+0.0
+Od pair 711 : 
+1.0
+0.0
+Od pair 712 : 
+1.0
+0.0
+Od pair 713 : 
+1.0
+0.0
+Od pair 714 : 
+1.0
+0.0
+Od pair 715 : 
+1.0
+0.0
+Od pair 716 : 
+1.0
+0.0
+Od pair 717 : 
+1.0
+0.0
+Od pair 718 : 
+1.0
+0.0
+Od pair 719 : 
+1.0
+0.0
+Od pair 720 : 
+1.0
+0.0
+Od pair 721 : 
+1.0
+0.0
+Od pair 722 : 
+1.0
+0.0
+Od pair 723 : 
+1.0
+0.0
+Od pair 724 : 
+1.0
+0.0
+Od pair 725 : 
+1.0
+0.0
+Od pair 726 : 
+1.0
+0.0
+Od pair 727 : 
+1.0
+0.0
+Od pair 728 : 
+1.0
+0.0
+Od pair 729 : 
+1.0
+0.0
+Od pair 730 : 
+1.0
+0.0
+Od pair 731 : 
+1.0
+0.0
+Od pair 732 : 
+1.0
+0.0
+Od pair 733 : 
+1.0
+0.0
+Od pair 734 : 
+1.0
+0.0
+Od pair 735 : 
+1.0
+0.0
+Od pair 736 : 
+1.0
+0.0
+Od pair 737 : 
+1.0
+0.0
+Od pair 738 : 
+1.0
+0.0
+Od pair 739 : 
+1.0
+0.0
+Od pair 740 : 
+1.0
+0.0
+Od pair 741 : 
+1.0
+0.0
+Od pair 742 : 
+1.0
+0.0
+Od pair 743 : 
+1.0
+0.0
+Od pair 744 : 
+1.0
+0.0
+Od pair 745 : 
+1.0
+0.0
+Od pair 746 : 
+1.0
+0.0
+Od pair 747 : 
+1.0
+0.0
+Od pair 748 : 
+1.0
+0.0
+Od pair 749 : 
+1.0
+0.0
+Od pair 750 : 
+1.0
+0.0
+Od pair 751 : 
+1.0
+0.0
+Od pair 752 : 
+1.0
+0.0
+Od pair 753 : 
+1.0
+0.0
+Od pair 754 : 
+1.0
+0.0
+Od pair 755 : 
+1.0
+0.0
+Od pair 756 : 
+1.0
+0.0
+Od pair 757 : 
+1.0
+0.0
+Od pair 758 : 
+1.0
+0.0
+Od pair 759 : 
+1.0
+0.0
+Od pair 760 : 
+1.0
+0.0
+Od pair 761 : 
+1.0
+0.0
+Od pair 762 : 
+1.0
+0.0
+Od pair 763 : 
+1.0
+0.0
+Od pair 764 : 
+1.0
+0.0
+Od pair 765 : 
+1.0
+0.0
+Od pair 766 : 
+1.0
+0.0
+Od pair 767 : 
+1.0
+0.0
+Od pair 768 : 
+1.0
+0.0
+Od pair 769 : 
+1.0
+0.0
+Od pair 770 : 
+1.0
+0.0
+Od pair 771 : 
+1.0
+0.0
+Od pair 772 : 
+1.0
+0.0
+Od pair 773 : 
+1.0
+0.0
+Od pair 774 : 
+1.0
+0.0
+Od pair 775 : 
+1.0
+0.0
+Od pair 776 : 
+1.0
+0.0
+Od pair 777 : 
+1.0
+0.0
+Od pair 778 : 
+1.0
+0.0
+Od pair 779 : 
+1.0
+0.0
+Od pair 780 : 
+1.0
+0.0
+Od pair 781 : 
+1.0
+0.0
+Od pair 782 : 
+1.0
+0.0
+Od pair 783 : 
+1.0
+0.0
+Od pair 784 : 
+1.0
+0.0
+Od pair 785 : 
+1.0
+0.0
+Od pair 786 : 
+1.0
+0.0
+Od pair 787 : 
+1.0
+0.0
+Od pair 788 : 
+1.0
+0.0
+Od pair 789 : 
+1.0
+0.0
+Od pair 790 : 
+1.0
+0.0
+Od pair 791 : 
+1.0
+0.0
+Od pair 792 : 
+1.0
+0.0
+Od pair 793 : 
+1.0
+0.0
+Od pair 794 : 
+1.0
+0.0
+Od pair 795 : 
+1.0
+0.0
+Od pair 796 : 
+1.0
+0.0
+Od pair 797 : 
+1.0
+0.0
+Od pair 798 : 
+1.0
+0.0
+Od pair 799 : 
+1.0
+0.0
+Od pair 800 : 
+1.0
+0.0
+Od pair 801 : 
+1.0
+0.0
+Od pair 802 : 
+1.0
+0.0
+Od pair 803 : 
+1.0
+0.0
+Od pair 804 : 
+1.0
+0.0
+Od pair 805 : 
+1.0
+0.0
+Od pair 806 : 
+1.0
+0.0
+Od pair 807 : 
+1.0
+0.0
+Od pair 808 : 
+1.0
+0.0
+Od pair 809 : 
+1.0
+0.0
+Od pair 810 : 
+1.0
+0.0
+Od pair 811 : 
+1.0
+0.0
+Od pair 812 : 
+1.0
+0.0
+Od pair 813 : 
+1.0
+0.0
+Od pair 814 : 
+1.0
+0.0
+Od pair 815 : 
+1.0
+0.0
+Od pair 816 : 
+1.0
+0.0
+Od pair 817 : 
+1.0
+0.0
+Od pair 818 : 
+1.0
+0.0
+Od pair 819 : 
+1.0
+0.0
+Od pair 820 : 
+1.0
+0.0
+Od pair 821 : 
+1.0
+0.0
+Od pair 822 : 
+1.0
+0.0
+Od pair 823 : 
+1.0
+0.0
+Od pair 824 : 
+1.0
+0.0
+Od pair 825 : 
+1.0
+0.0
+Od pair 826 : 
+1.0
+0.0
+Od pair 827 : 
+1.0
+0.0
+Od pair 828 : 
+1.0
+0.0
+Od pair 829 : 
+1.0
+0.0
+Od pair 830 : 
+1.0
+0.0
+Od pair 831 : 
+1.0
+0.0
+Od pair 832 : 
+1.0
+0.0
+Od pair 833 : 
+1.0
+0.0
+Od pair 834 : 
+1.0
+0.0
+Od pair 835 : 
+1.0
+0.0
+Od pair 836 : 
+1.0
+0.0
+Od pair 837 : 
+1.0
+0.0
+Od pair 838 : 
+1.0
+0.0
+Od pair 839 : 
+1.0
+0.0
+Od pair 840 : 
+1.0
+0.0
+Od pair 841 : 
+1.0
+0.0
+Od pair 842 : 
+1.0
+0.0
+Od pair 843 : 
+1.0
+0.0
+Od pair 844 : 
+1.0
+0.0
+Od pair 845 : 
+1.0
+0.0
+Od pair 846 : 
+1.0
+0.0
+Od pair 847 : 
+1.0
+0.0
+Od pair 848 : 
+1.0
+0.0
+Od pair 849 : 
+1.0
+0.0
+Od pair 850 : 
+1.0
+0.0
+Od pair 851 : 
+1.0
+0.0
+Od pair 852 : 
+1.0
+0.0
+Od pair 853 : 
+1.0
+0.0
+Od pair 854 : 
+1.0
+0.0
+Od pair 855 : 
+1.0
+0.0
+Od pair 856 : 
+1.0
+0.0
+Od pair 857 : 
+1.0
+0.0
+Od pair 858 : 
+1.0
+0.0
+Od pair 859 : 
+1.0
+0.0
+Od pair 860 : 
+1.0
+0.0
+Od pair 861 : 
+1.0
+0.0
+Od pair 862 : 
+1.0
+0.0
+Od pair 863 : 
+1.0
+0.0
+Od pair 864 : 
+1.0
+0.0
+Od pair 865 : 
+1.0
+0.0
+Od pair 866 : 
+1.0
+0.0
+Od pair 867 : 
+1.0
+0.0
+Od pair 868 : 
+1.0
+0.0
+Od pair 869 : 
+1.0
+0.0
+Od pair 870 : 
+1.0
+0.0
+Od pair 871 : 
+1.0
+0.0
+Od pair 872 : 
+1.0
+0.0
+Od pair 873 : 
+1.0
+0.0
+Od pair 874 : 
+1.0
+0.0
+Od pair 875 : 
+1.0
+0.0
+Od pair 876 : 
+1.0
+0.0
+Od pair 877 : 
+1.0
+0.0
+Od pair 878 : 
+1.0
+0.0
+Od pair 879 : 
+1.0
+0.0
+Od pair 880 : 
+1.0
+0.0
+Od pair 881 : 
+1.0
+0.0
+Od pair 882 : 
+1.0
+0.0
+Od pair 883 : 
+1.0
+0.0
+Od pair 884 : 
+1.0
+0.0
+Od pair 885 : 
+1.0
+0.0
+Od pair 886 : 
+1.0
+0.0
+Od pair 887 : 
+1.0
+0.0
+Od pair 888 : 
+1.0
+0.0
+Od pair 889 : 
+1.0
+0.0
+Od pair 890 : 
+1.0
+0.0
+Od pair 891 : 
+1.0
+0.0
+Od pair 892 : 
+1.0
+0.0
+Od pair 893 : 
+1.0
+0.0
+Od pair 894 : 
+1.0
+0.0
+Od pair 895 : 
+1.0
+0.0
+Od pair 896 : 
+1.0
+0.0
+Od pair 897 : 
+1.0
+0.0
+Od pair 898 : 
+1.0
+0.0
+Od pair 899 : 
+1.0
+0.0
+Od pair 900 : 
+1.0
+0.0
+Od pair 901 : 
+1.0
+0.0
+Od pair 902 : 
+1.0
+0.0
+Od pair 903 : 
+1.0
+0.0
+Od pair 904 : 
+1.0
+0.0
+Od pair 905 : 
+1.0
+0.0
+Od pair 906 : 
+1.0
+0.0
+Od pair 907 : 
+1.0
+0.0
+Od pair 908 : 
+1.0
+0.0
+Od pair 909 : 
+1.0
+0.0
+Od pair 910 : 
+1.0
+0.0
+Od pair 911 : 
+1.0
+0.0
+Od pair 912 : 
+1.0
+0.0
+Od pair 913 : 
+1.0
+0.0
+Od pair 914 : 
+1.0
+0.0
+Od pair 915 : 
+1.0
+0.0
+Od pair 916 : 
+1.0
+0.0
+Od pair 917 : 
+1.0
+0.0
+Od pair 918 : 
+1.0
+0.0
+Od pair 919 : 
+1.0
+0.0
+Od pair 920 : 
+1.0
+0.0
+Od pair 921 : 
+1.0
+0.0
+Od pair 922 : 
+1.0
+0.0
+Od pair 923 : 
+1.0
+0.0
+Od pair 924 : 
+1.0
+0.0
+Od pair 925 : 
+1.0
+0.0
+Od pair 926 : 
+1.0
+0.0
+Od pair 927 : 
+1.0
+0.0
+Od pair 928 : 
+1.0
+0.0
+Od pair 929 : 
+1.0
+0.0
+Od pair 930 : 
+1.0
+0.0
+Od pair 931 : 
+1.0
+0.0
+Od pair 932 : 
+1.0
+0.0
+Od pair 933 : 
+1.0
+0.0
+Od pair 934 : 
+1.0
+0.0
+Od pair 935 : 
+1.0
+0.0
+Od pair 936 : 
+1.0
+0.0
+Od pair 937 : 
+1.0
+0.0
+Od pair 938 : 
+1.0
+0.0
+Od pair 939 : 
+1.0
+0.0
+Od pair 940 : 
+1.0
+0.0
+Od pair 941 : 
+1.0
+0.0
+Od pair 942 : 
+1.0
+0.0
+Od pair 943 : 
+1.0
+0.0
+Od pair 944 : 
+1.0
+0.0
+Od pair 945 : 
+1.0
+0.0
+Od pair 946 : 
+1.0
+0.0
+Od pair 947 : 
+1.0
+0.0
+Od pair 948 : 
+1.0
+0.0
+Od pair 949 : 
+1.0
+0.0
+Od pair 950 : 
+1.0
+0.0
+Od pair 951 : 
+1.0
+0.0
+Od pair 952 : 
+1.0
+0.0
+Od pair 953 : 
+1.0
+0.0
+Od pair 954 : 
+1.0
+0.0
+Od pair 955 : 
+1.0
+0.0
+Od pair 956 : 
+1.0
+0.0
+Od pair 957 : 
+1.0
+0.0
+Od pair 958 : 
+1.0
+0.0
+Od pair 959 : 
+1.0
+0.0
+Od pair 960 : 
+1.0
+0.0
+Od pair 961 : 
+1.0
+0.0
+Od pair 962 : 
+1.0
+0.0
+Od pair 963 : 
+1.0
+0.0
+Od pair 964 : 
+1.0
+0.0
+Od pair 965 : 
+1.0
+0.0
+Od pair 966 : 
+1.0
+0.0
+Od pair 967 : 
+1.0
+0.0
+Od pair 968 : 
+1.0
+0.0
+Od pair 969 : 
+1.0
+0.0
+Od pair 970 : 
+1.0
+0.0
+Od pair 971 : 
+1.0
+0.0
+Od pair 972 : 
+1.0
+0.0
+Od pair 973 : 
+1.0
+0.0
+Od pair 974 : 
+1.0
+0.0
+Od pair 975 : 
+1.0
+0.0
+Od pair 976 : 
+1.0
+0.0
+Od pair 977 : 
+1.0
+0.0
+Od pair 978 : 
+1.0
+0.0
+Od pair 979 : 
+1.0
+0.0
+Od pair 980 : 
+1.0
+0.0
+Od pair 981 : 
+1.0
+0.0
+Od pair 982 : 
+1.0
+0.0
+Od pair 983 : 
+1.0
+0.0
+Od pair 984 : 
+1.0
+0.0
+Od pair 985 : 
+1.0
+0.0
+Od pair 986 : 
+1.0
+0.0
+Od pair 987 : 
+1.0
+0.0
+Od pair 988 : 
+1.0
+0.0
+Od pair 989 : 
+1.0
+0.0
+Od pair 990 : 
+1.0
+0.0
+Od pair 991 : 
+1.0
+0.0
+Od pair 992 : 
+1.0
+0.0
+Od pair 993 : 
+1.0
+0.0
+Od pair 994 : 
+1.0
+0.0
+Od pair 995 : 
+1.0
+0.0
+Od pair 996 : 
+1.0
+0.0
+Od pair 997 : 
+1.0
+0.0
+Od pair 998 : 
+1.0
+0.0
+Od pair 999 : 
+1.0
+0.0
+Od pair 1000 : 
+1.0
+0.0
+Od pair 1001 : 
+1.0
+0.0
+Od pair 1002 : 
+1.0
+0.0
+Od pair 1003 : 
+1.0
+0.0
+Od pair 1004 : 
+1.0
+0.0
+Od pair 1005 : 
+1.0
+0.0
+Od pair 1006 : 
+1.0
+0.0
+Od pair 1007 : 
+1.0
+0.0
+Od pair 1008 : 
+1.0
+0.0
+Od pair 1009 : 
+1.0
+0.0
+Od pair 1010 : 
+1.0
+0.0
+Od pair 1011 : 
+1.0
+0.0
+Od pair 1012 : 
+1.0
+0.0
+Od pair 1013 : 
+1.0
+0.0
+Od pair 1014 : 
+1.0
+0.0
+Od pair 1015 : 
+1.0
+0.0
+Od pair 1016 : 
+1.0
+0.0
+Od pair 1017 : 
+1.0
+0.0
+Od pair 1018 : 
+1.0
+0.0
+Od pair 1019 : 
+1.0
+0.0
+Od pair 1020 : 
+1.0
+0.0
+Od pair 1021 : 
+1.0
+0.0
+Od pair 1022 : 
+1.0
+0.0
+Od pair 1023 : 
+1.0
+0.0
+Od pair 1024 : 
+1.0
+0.0
+Od pair 1025 : 
+1.0
+0.0
+Od pair 1026 : 
+1.0
+0.0
+Od pair 1027 : 
+1.0
+0.0
+Od pair 1028 : 
+1.0
+0.0
+Od pair 1029 : 
+1.0
+0.0
+Od pair 1030 : 
+1.0
+0.0
+Od pair 1031 : 
+1.0
+0.0
+Od pair 1032 : 
+1.0
+0.0
+Od pair 1033 : 
+1.0
+0.0
+Od pair 1034 : 
+1.0
+0.0
+Od pair 1035 : 
+1.0
+0.0
+Od pair 1036 : 
+1.0
+0.0
+Od pair 1037 : 
+1.0
+0.0
+Od pair 1038 : 
+1.0
+0.0
+Od pair 1039 : 
+1.0
+0.0
+Od pair 1040 : 
+1.0
+0.0
+Od pair 1041 : 
+1.0
+0.0
+Od pair 1042 : 
+1.0
+0.0
+Od pair 1043 : 
+1.0
+0.0
+Od pair 1044 : 
+1.0
+0.0
+Od pair 1045 : 
+1.0
+0.0
+Od pair 1046 : 
+1.0
+0.0
+Od pair 1047 : 
+1.0
+0.0
+Od pair 1048 : 
+1.0
+0.0
+Od pair 1049 : 
+1.0
+0.0
+Od pair 1050 : 
+1.0
+0.0
+Od pair 1051 : 
+1.0
+0.0
+Od pair 1052 : 
+1.0
+0.0
+Od pair 1053 : 
+1.0
+0.0
+Od pair 1054 : 
+1.0
+0.0
+Od pair 1055 : 
+1.0
+0.0
+Od pair 1056 : 
+1.0
+0.0
+Od pair 1057 : 
+1.0
+0.0
+Od pair 1058 : 
+1.0
+0.0
+Od pair 1059 : 
+1.0
+0.0
+Od pair 1060 : 
+1.0
+0.0
+Od pair 1061 : 
+1.0
+0.0
+Od pair 1062 : 
+1.0
+0.0
+Od pair 1063 : 
+1.0
+0.0
+Od pair 1064 : 
+1.0
+0.0
+Od pair 1065 : 
+1.0
+0.0
+Od pair 1066 : 
+1.0
+0.0
+Od pair 1067 : 
+1.0
+0.0
+Od pair 1068 : 
+1.0
+0.0
+Od pair 1069 : 
+1.0
+0.0
+Od pair 1070 : 
+1.0
+0.0
+Od pair 1071 : 
+1.0
+0.0
+Od pair 1072 : 
+1.0
+0.0
+Od pair 1073 : 
+1.0
+0.0
+Od pair 1074 : 
+1.0
+0.0
+Od pair 1075 : 
+1.0
+0.0
+Od pair 1076 : 
+1.0
+0.0
+Od pair 1077 : 
+1.0
+0.0
+Od pair 1078 : 
+1.0
+0.0
+Od pair 1079 : 
+1.0
+0.0
+Od pair 1080 : 
+1.0
+0.0
+Od pair 1081 : 
+1.0
+0.0
+Od pair 1082 : 
+1.0
+0.0
+Od pair 1083 : 
+1.0
+0.0
+Od pair 1084 : 
+1.0
+0.0
+Od pair 1085 : 
+1.0
+0.0
+Od pair 1086 : 
+1.0
+0.0
+Od pair 1087 : 
+1.0
+0.0
+Od pair 1088 : 
+1.0
+0.0
+Od pair 1089 : 
+1.0
+0.0
+Od pair 1090 : 
+1.0
+0.0
+Od pair 1091 : 
+1.0
+0.0
+Od pair 1092 : 
+1.0
+0.0
+Od pair 1093 : 
+1.0
+0.0
+Od pair 1094 : 
+1.0
+0.0
+Od pair 1095 : 
+1.0
+0.0
+Od pair 1096 : 
+1.0
+0.0
+Od pair 1097 : 
+1.0
+0.0
+Od pair 1098 : 
+1.0
+0.0
+Od pair 1099 : 
+1.0
+0.0
+Od pair 1100 : 
+1.0
+0.0
+Od pair 1101 : 
+1.0
+0.0
+Od pair 1102 : 
+1.0
+0.0
+Od pair 1103 : 
+1.0
+0.0
+Od pair 1104 : 
+1.0
+0.0
+Od pair 1105 : 
+1.0
+0.0
+Od pair 1106 : 
+1.0
+0.0
+Od pair 1107 : 
+1.0
+0.0
+Od pair 1108 : 
+1.0
+0.0
+Od pair 1109 : 
+1.0
+0.0
+Od pair 1110 : 
+1.0
+0.0
+Od pair 1111 : 
+1.0
+0.0
+Od pair 1112 : 
+1.0
+0.0
+Od pair 1113 : 
+1.0
+0.0
+Od pair 1114 : 
+1.0
+0.0
+Od pair 1115 : 
+1.0
+0.0
+Od pair 1116 : 
+1.0
+0.0
+Od pair 1117 : 
+1.0
+0.0
+Od pair 1118 : 
+1.0
+0.0
+Od pair 1119 : 
+1.0
+0.0
+Od pair 1120 : 
+1.0
+0.0
+Od pair 1121 : 
+1.0
+0.0
+Od pair 1122 : 
+1.0
+0.0
+Od pair 1123 : 
+1.0
+0.0
+Od pair 1124 : 
+1.0
+0.0
+Od pair 1125 : 
+1.0
+0.0
+Od pair 1126 : 
+1.0
+0.0
+Od pair 1127 : 
+1.0
+0.0
+Od pair 1128 : 
+1.0
+0.0
+Od pair 1129 : 
+1.0
+0.0
+Od pair 1130 : 
+1.0
+0.0
+Od pair 1131 : 
+1.0
+0.0
+Od pair 1132 : 
+1.0
+0.0
+Od pair 1133 : 
+1.0
+0.0
+Od pair 1134 : 
+1.0
+0.0
+Od pair 1135 : 
+1.0
+0.0
+Od pair 1136 : 
+1.0
+0.0
+Od pair 1137 : 
+1.0
+0.0
+Od pair 1138 : 
+1.0
+0.0
+Od pair 1139 : 
+1.0
+0.0
+Od pair 1140 : 
+1.0
+0.0
+Od pair 1141 : 
+1.0
+0.0
+Od pair 1142 : 
+1.0
+0.0
+Od pair 1143 : 
+1.0
+0.0
+Od pair 1144 : 
+1.0
+0.0
+Od pair 1145 : 
+1.0
+0.0
+Od pair 1146 : 
+1.0
+0.0
+Od pair 1147 : 
+1.0
+0.0
+Od pair 1148 : 
+1.0
+0.0
+Od pair 1149 : 
+1.0
+0.0
+Od pair 1150 : 
+1.0
+0.0
+Od pair 1151 : 
+1.0
+0.0
+Od pair 1152 : 
+1.0
+0.0
+Od pair 1153 : 
+1.0
+0.0
+Od pair 1154 : 
+1.0
+0.0
+Od pair 1155 : 
+1.0
+0.0
+Od pair 1156 : 
+1.0
+0.0
+Od pair 1157 : 
+1.0
+0.0
+Od pair 1158 : 
+1.0
+0.0
+Od pair 1159 : 
+1.0
+0.0
+Od pair 1160 : 
+1.0
+0.0
+Od pair 1161 : 
+1.0
+0.0
+Od pair 1162 : 
+1.0
+0.0
+Od pair 1163 : 
+1.0
+0.0
+Od pair 1164 : 
+1.0
+0.0
+Od pair 1165 : 
+1.0
+0.0
+Od pair 1166 : 
+1.0
+0.0
+Od pair 1167 : 
+1.0
+0.0
+Od pair 1168 : 
+1.0
+0.0
+Od pair 1169 : 
+1.0
+0.0
+Od pair 1170 : 
+1.0
+0.0
+Od pair 1171 : 
+1.0
+0.0
+Od pair 1172 : 
+1.0
+0.0
+Od pair 1173 : 
+1.0
+0.0
+Od pair 1174 : 
+1.0
+0.0
+Od pair 1175 : 
+1.0
+0.0
+Od pair 1176 : 
+1.0
+0.0
+Od pair 1177 : 
+1.0
+0.0
+Od pair 1178 : 
+1.0
+0.0
+Od pair 1179 : 
+1.0
+0.0
+Od pair 1180 : 
+1.0
+0.0
+Od pair 1181 : 
+1.0
+0.0
+Od pair 1182 : 
+1.0
+0.0
+Od pair 1183 : 
+1.0
+0.0
+Od pair 1184 : 
+1.0
+0.0
+Od pair 1185 : 
+1.0
+0.0
+Od pair 1186 : 
+1.0
+0.0
+Od pair 1187 : 
+1.0
+0.0
+Od pair 1188 : 
+1.0
+0.0
+Od pair 1189 : 
+1.0
+0.0
+Od pair 1190 : 
+1.0
+0.0
+Od pair 1191 : 
+1.0
+0.0
+Od pair 1192 : 
+1.0
+0.0
+Od pair 1193 : 
+1.0
+0.0
+Od pair 1194 : 
+1.0
+0.0
+Od pair 1195 : 
+1.0
+0.0
+Od pair 1196 : 
+1.0
+0.0
+Od pair 1197 : 
+1.0
+0.0
+Od pair 1198 : 
+1.0
+0.0
+Od pair 1199 : 
+1.0
+0.0
+Od pair 1200 : 
+1.0
+0.0
+Od pair 1201 : 
+1.0
+0.0
+Od pair 1202 : 
+1.0
+0.0
+Od pair 1203 : 
+1.0
+0.0
+Od pair 1204 : 
+1.0
+0.0
+Od pair 1205 : 
+1.0
+0.0
+Od pair 1206 : 
+1.0
+0.0
+Od pair 1207 : 
+1.0
+0.0
+Od pair 1208 : 
+1.0
+0.0
+Od pair 1209 : 
+1.0
+0.0
+Od pair 1210 : 
+1.0
+0.0
+Od pair 1211 : 
+1.0
+0.0
+Od pair 1212 : 
+1.0
+0.0
+Od pair 1213 : 
+1.0
+0.0
+Od pair 1214 : 
+1.0
+0.0
+Od pair 1215 : 
+1.0
+0.0
+Od pair 1216 : 
+1.0
+0.0
+Od pair 1217 : 
+1.0
+0.0
+Od pair 1218 : 
+1.0
+0.0
+Od pair 1219 : 
+1.0
+0.0
+Od pair 1220 : 
+1.0
+0.0
+Od pair 1221 : 
+1.0
+0.0
+Od pair 1222 : 
+1.0
+0.0
+Od pair 1223 : 
+1.0
+0.0
+Od pair 1224 : 
+1.0
+0.0
+Od pair 1225 : 
+1.0
+0.0
+Od pair 1226 : 
+1.0
+0.0
+Od pair 1227 : 
+1.0
+0.0
+Od pair 1228 : 
+1.0
+0.0
+Od pair 1229 : 
+1.0
+0.0
+Od pair 1230 : 
+1.0
+0.0
+Od pair 1231 : 
+1.0
+0.0
+Od pair 1232 : 
+1.0
+0.0
+Od pair 1233 : 
+1.0
+0.0
+Od pair 1234 : 
+1.0
+0.0
+Od pair 1235 : 
+1.0
+0.0
+Od pair 1236 : 
+1.0
+0.0
+Od pair 1237 : 
+1.0
+0.0
+Od pair 1238 : 
+1.0
+0.0
+Od pair 1239 : 
+1.0
+0.0
+Od pair 1240 : 
+1.0
+0.0
+Od pair 1241 : 
+1.0
+0.0
+Od pair 1242 : 
+1.0
+0.0
+Od pair 1243 : 
+1.0
+0.0
+Od pair 1244 : 
+1.0
+0.0
+Od pair 1245 : 
+1.0
+0.0
+Od pair 1246 : 
+1.0
+0.0
+Od pair 1247 : 
+1.0
+0.0
+Od pair 1248 : 
+1.0
+0.0
+Od pair 1249 : 
+1.0
+0.0
+Od pair 1250 : 
+1.0
+0.0
+Od pair 1251 : 
+1.0
+0.0
+Od pair 1252 : 
+1.0
+0.0
+Od pair 1253 : 
+1.0
+0.0
+Od pair 1254 : 
+1.0
+0.0
+Od pair 1255 : 
+1.0
+0.0
+Od pair 1256 : 
+1.0
+0.0
+Od pair 1257 : 
+1.0
+0.0
+Od pair 1258 : 
+1.0
+0.0
+Od pair 1259 : 
+1.0
+0.0
+Od pair 1260 : 
+1.0
+0.0
+Od pair 1261 : 
+1.0
+0.0
+Od pair 1262 : 
+1.0
+0.0
+Od pair 1263 : 
+1.0
+0.0
+Od pair 1264 : 
+1.0
+0.0
+Od pair 1265 : 
+1.0
+0.0
+Od pair 1266 : 
+1.0
+0.0
+Od pair 1267 : 
+1.0
+0.0
+Od pair 1268 : 
+1.0
+0.0
+Od pair 1269 : 
+1.0
+0.0
+Od pair 1270 : 
+1.0
+0.0
+Od pair 1271 : 
+1.0
+0.0
+Od pair 1272 : 
+1.0
+0.0
+Od pair 1273 : 
+1.0
+0.0
+Od pair 1274 : 
+1.0
+0.0
+Od pair 1275 : 
+1.0
+0.0
+Od pair 1276 : 
+1.0
+0.0
+Od pair 1277 : 
+1.0
+0.0
+Od pair 1278 : 
+1.0
+0.0
+Od pair 1279 : 
+1.0
+0.0
+Od pair 1280 : 
+1.0
+0.0
+Od pair 1281 : 
+1.0
+0.0
+Od pair 1282 : 
+1.0
+0.0
+Od pair 1283 : 
+1.0
+0.0
+Od pair 1284 : 
+1.0
+0.0
+Od pair 1285 : 
+1.0
+0.0
+Od pair 1286 : 
+1.0
+0.0
+Od pair 1287 : 
+1.0
+0.0
+Od pair 1288 : 
+1.0
+0.0
+Od pair 1289 : 
+1.0
+0.0
+Od pair 1290 : 
+1.0
+0.0
+Od pair 1291 : 
+1.0
+0.0
+Od pair 1292 : 
+1.0
+0.0
+Od pair 1293 : 
+1.0
+0.0
+Od pair 1294 : 
+1.0
+0.0
+Od pair 1295 : 
+1.0
+0.0
+Od pair 1296 : 
+1.0
+0.0
+Od pair 1297 : 
+1.0
+0.0
+Od pair 1298 : 
+1.0
+0.0
+Od pair 1299 : 
+1.0
+0.0
+Od pair 1300 : 
+1.0
+0.0
+Od pair 1301 : 
+1.0
+0.0
+Od pair 1302 : 
+1.0
+0.0
+Od pair 1303 : 
+1.0
+0.0
+Od pair 1304 : 
+1.0
+0.0
+Od pair 1305 : 
+1.0
+0.0
+Od pair 1306 : 
+1.0
+0.0
+Od pair 1307 : 
+1.0
+0.0
+Od pair 1308 : 
+1.0
+0.0
+Od pair 1309 : 
+1.0
+0.0
+Od pair 1310 : 
+1.0
+0.0
+Od pair 1311 : 
+1.0
+0.0
+Od pair 1312 : 
+1.0
+0.0
+Od pair 1313 : 
+1.0
+0.0
+Od pair 1314 : 
+1.0
+0.0
+Od pair 1315 : 
+1.0
+0.0
+Od pair 1316 : 
+1.0
+0.0
+Od pair 1317 : 
+1.0
+0.0
+Od pair 1318 : 
+1.0
+0.0
+Od pair 1319 : 
+1.0
+0.0
+Od pair 1320 : 
+1.0
+0.0
+Od pair 1321 : 
+1.0
+0.0
+Od pair 1322 : 
+1.0
+0.0
+Od pair 1323 : 
+1.0
+0.0
+Od pair 1324 : 
+1.0
+0.0
+Od pair 1325 : 
+1.0
+0.0
+Od pair 1326 : 
+1.0
+0.0
+Od pair 1327 : 
+1.0
+0.0
+Od pair 1328 : 
+1.0
+0.0
+Od pair 1329 : 
+1.0
+0.0
+Od pair 1330 : 
+1.0
+0.0
+Od pair 1331 : 
+1.0
+0.0
+Od pair 1332 : 
+1.0
+0.0
+Od pair 1333 : 
+1.0
+0.0
+Od pair 1334 : 
+1.0
+0.0
+Od pair 1335 : 
+1.0
+0.0
+Od pair 1336 : 
+1.0
+0.0
+Od pair 1337 : 
+1.0
+0.0
+Od pair 1338 : 
+1.0
+0.0
+Od pair 1339 : 
+1.0
+0.0
+Od pair 1340 : 
+1.0
+0.0
+Od pair 1341 : 
+1.0
+0.0
+Od pair 1342 : 
+1.0
+0.0
+Od pair 1343 : 
+1.0
+0.0
+Od pair 1344 : 
+1.0
+0.0
+Od pair 1345 : 
+1.0
+0.0
+Od pair 1346 : 
+1.0
+0.0
+Od pair 1347 : 
+1.0
+0.0
+Od pair 1348 : 
+1.0
+0.0
+Od pair 1349 : 
+1.0
+0.0
+Od pair 1350 : 
+1.0
+0.0
+Od pair 1351 : 
+1.0
+0.0
+Od pair 1352 : 
+1.0
+0.0
+Od pair 1353 : 
+1.0
+0.0
+Od pair 1354 : 
+1.0
+0.0
+Od pair 1355 : 
+1.0
+0.0
+Od pair 1356 : 
+1.0
+0.0
+Od pair 1357 : 
+1.0
+0.0
+Od pair 1358 : 
+1.0
+0.0
+Od pair 1359 : 
+1.0
+0.0
+Od pair 1360 : 
+1.0
+0.0
+Od pair 1361 : 
+1.0
+0.0
+Od pair 1362 : 
+1.0
+0.0
+Od pair 1363 : 
+1.0
+0.0
+Od pair 1364 : 
+1.0
+0.0
+Od pair 1365 : 
+1.0
+0.0
+Od pair 1366 : 
+1.0
+0.0
+Od pair 1367 : 
+1.0
+0.0
+Od pair 1368 : 
+1.0
+0.0
+Od pair 1369 : 
+1.0
+0.0
+Od pair 1370 : 
+1.0
+0.0
+Od pair 1371 : 
+1.0
+0.0
+Od pair 1372 : 
+1.0
+0.0
+Od pair 1373 : 
+1.0
+0.0
+Od pair 1374 : 
+1.0
+0.0
+Od pair 1375 : 
+1.0
+0.0
+Od pair 1376 : 
+1.0
+0.0
+Od pair 1377 : 
+1.0
+0.0
+Od pair 1378 : 
+1.0
+0.0
+Od pair 1379 : 
+1.0
+0.0
+Od pair 1380 : 
+1.0
+0.0
+Od pair 1381 : 
+1.0
+0.0
+Od pair 1382 : 
+1.0
+0.0
+Od pair 1383 : 
+1.0
+0.0
+Od pair 1384 : 
+1.0
+0.0
+Od pair 1385 : 
+1.0
+0.0
+Od pair 1386 : 
+1.0
+0.0
+Od pair 1387 : 
+1.0
+0.0
+Od pair 1388 : 
+1.0
+0.0
+Od pair 1389 : 
+1.0
+0.0
+Od pair 1390 : 
+1.0
+0.0
+Od pair 1391 : 
+1.0
+0.0
+Od pair 1392 : 
+1.0
+0.0
+Od pair 1393 : 
+1.0
+0.0
+Od pair 1394 : 
+1.0
+0.0
+Od pair 1395 : 
+1.0
+0.0
+Od pair 1396 : 
+1.0
+0.0
+Od pair 1397 : 
+1.0
+0.0
+Od pair 1398 : 
+1.0
+0.0
+Od pair 1399 : 
+1.0
+0.0
+Od pair 1400 : 
+1.0
+0.0
+Od pair 1401 : 
+1.0
+0.0
+Od pair 1402 : 
+1.0
+0.0
+Od pair 1403 : 
+1.0
+0.0
+Od pair 1404 : 
+1.0
+0.0
+Od pair 1405 : 
+1.0
+0.0
+Od pair 1406 : 
+1.0
+0.0
+Od pair 1407 : 
+1.0
+0.0
+Od pair 1408 : 
+1.0
+0.0
+Od pair 1409 : 
+1.0
+0.0
+Od pair 1410 : 
+1.0
+0.0
+Od pair 1411 : 
+1.0
+0.0
+Od pair 1412 : 
+1.0
+0.0
+Od pair 1413 : 
+1.0
+0.0
+Od pair 1414 : 
+1.0
+0.0
+Od pair 1415 : 
+1.0
+0.0
+Od pair 1416 : 
+1.0
+0.0
+Od pair 1417 : 
+1.0
+0.0
+Od pair 1418 : 
+1.0
+0.0
+Od pair 1419 : 
+1.0
+0.0
+Od pair 1420 : 
+1.0
+0.0
+Od pair 1421 : 
+1.0
+0.0
+Od pair 1422 : 
+1.0
+0.0
+Od pair 1423 : 
+1.0
+0.0
+Od pair 1424 : 
+1.0
+0.0
+Od pair 1425 : 
+1.0
+0.0
+Od pair 1426 : 
+1.0
+0.0
+Od pair 1427 : 
+1.0
+0.0
+Od pair 1428 : 
+1.0
+0.0
+Od pair 1429 : 
+1.0
+0.0
+Od pair 1430 : 
+1.0
+0.0
+Od pair 1431 : 
+1.0
+0.0
+Od pair 1432 : 
+1.0
+0.0
+Od pair 1433 : 
+1.0
+0.0
+Od pair 1434 : 
+1.0
+0.0
+Od pair 1435 : 
+1.0
+0.0
+Od pair 1436 : 
+1.0
+0.0
+Od pair 1437 : 
+1.0
+0.0
+Od pair 1438 : 
+1.0
+0.0
+Od pair 1439 : 
+1.0
+0.0
+Od pair 1440 : 
+1.0
+0.0
+Od pair 1441 : 
+1.0
+0.0
+Od pair 1442 : 
+1.0
+0.0
+Od pair 1443 : 
+1.0
+0.0
+Od pair 1444 : 
+1.0
+0.0
+Od pair 1445 : 
+1.0
+0.0
+Od pair 1446 : 
+1.0
+0.0
+Od pair 1447 : 
+1.0
+0.0
+Od pair 1448 : 
+1.0
+0.0
+Od pair 1449 : 
+1.0
+0.0
+Od pair 1450 : 
+1.0
+0.0
+Od pair 1451 : 
+1.0
+0.0
+Od pair 1452 : 
+1.0
+0.0
+Od pair 1453 : 
+1.0
+0.0
+Od pair 1454 : 
+1.0
+0.0
+Od pair 1455 : 
+1.0
+0.0
+Od pair 1456 : 
+1.0
+0.0
+Od pair 1457 : 
+1.0
+0.0
+Od pair 1458 : 
+1.0
+0.0
+Od pair 1459 : 
+1.0
+0.0
+Od pair 1460 : 
+1.0
+0.0
+Od pair 1461 : 
+1.0
+0.0
+Od pair 1462 : 
+1.0
+0.0
+Od pair 1463 : 
+1.0
+0.0
+Od pair 1464 : 
+1.0
+0.0
+Od pair 1465 : 
+1.0
+0.0
+Od pair 1466 : 
+1.0
+0.0
+Od pair 1467 : 
+1.0
+0.0
+Od pair 1468 : 
+1.0
+0.0
+Od pair 1469 : 
+1.0
+0.0
+Od pair 1470 : 
+1.0
+0.0
+Od pair 1471 : 
+1.0
+0.0
+Od pair 1472 : 
+1.0
+0.0
+Od pair 1473 : 
+1.0
+0.0
+Od pair 1474 : 
+1.0
+0.0
+Od pair 1475 : 
+1.0
+0.0
+Od pair 1476 : 
+1.0
+0.0
+Od pair 1477 : 
+1.0
+0.0
+Od pair 1478 : 
+1.0
+0.0
+Od pair 1479 : 
+1.0
+0.0
+Od pair 1480 : 
+1.0
+0.0
+Od pair 1481 : 
+1.0
+0.0
+Od pair 1482 : 
+1.0
+0.0
+Od pair 1483 : 
+1.0
+0.0
+Od pair 1484 : 
+1.0
+0.0
+Od pair 1485 : 
+1.0
+0.0
+Od pair 1486 : 
+1.0
+0.0
+Od pair 1487 : 
+1.0
+0.0
+Od pair 1488 : 
+1.0
+0.0
+Od pair 1489 : 
+1.0
+0.0
+Od pair 1490 : 
+1.0
+0.0
+Od pair 1491 : 
+1.0
+0.0
+Od pair 1492 : 
+1.0
+0.0
+Od pair 1493 : 
+1.0
+0.0
+Od pair 1494 : 
+1.0
+0.0
+Od pair 1495 : 
+1.0
+0.0
+Od pair 1496 : 
+1.0
+0.0
+Od pair 1497 : 
+1.0
+0.0
+Od pair 1498 : 
+1.0
+0.0
+Od pair 1499 : 
+1.0
+0.0
+Od pair 1500 : 
+1.0
+0.0
+Od pair 1501 : 
+1.0
+0.0
+Od pair 1502 : 
+1.0
+0.0
+Od pair 1503 : 
+1.0
+0.0
+Od pair 1504 : 
+1.0
+0.0
+Od pair 1505 : 
+1.0
+0.0
+Od pair 1506 : 
+1.0
+0.0
+Od pair 1507 : 
+1.0
+0.0
+Od pair 1508 : 
+1.0
+0.0
+Od pair 1509 : 
+1.0
+0.0
+Od pair 1510 : 
+1.0
+0.0
+Od pair 1511 : 
+1.0
+0.0
+Od pair 1512 : 
+1.0
+0.0
+Od pair 1513 : 
+1.0
+0.0
+Od pair 1514 : 
+1.0
+0.0
+Od pair 1515 : 
+1.0
+0.0
+Od pair 1516 : 
+1.0
+0.0
+Od pair 1517 : 
+1.0
+0.0
+Od pair 1518 : 
+1.0
+0.0
+Od pair 1519 : 
+1.0
+0.0
+Od pair 1520 : 
+1.0
+0.0
+Od pair 1521 : 
+1.0
+0.0
+Od pair 1522 : 
+1.0
+0.0
+Od pair 1523 : 
+1.0
+0.0
+Od pair 1524 : 
+1.0
+0.0
+Od pair 1525 : 
+1.0
+0.0
+Od pair 1526 : 
+1.0
+0.0
+Od pair 1527 : 
+1.0
+0.0
+Od pair 1528 : 
+1.0
+0.0
+Od pair 1529 : 
+1.0
+0.0
+Od pair 1530 : 
+1.0
+0.0
+Od pair 1531 : 
+1.0
+0.0
+Od pair 1532 : 
+1.0
+0.0
+Od pair 1533 : 
+1.0
+0.0
+Od pair 1534 : 
+1.0
+0.0
+Od pair 1535 : 
+1.0
+0.0
+Od pair 1536 : 
+1.0
+0.0
+Od pair 1537 : 
+1.0
+0.0
+Od pair 1538 : 
+1.0
+0.0
+Od pair 1539 : 
+1.0
+0.0
+Od pair 1540 : 
+1.0
+0.0
+Od pair 1541 : 
+1.0
+0.0
+Od pair 1542 : 
+1.0
+0.0
+Od pair 1543 : 
+1.0
+0.0
+Od pair 1544 : 
+1.0
+0.0
+Od pair 1545 : 
+1.0
+0.0
+Od pair 1546 : 
+1.0
+0.0
+Od pair 1547 : 
+1.0
+0.0
+Od pair 1548 : 
+1.0
+0.0
+Od pair 1549 : 
+1.0
+0.0
+Od pair 1550 : 
+1.0
+0.0
+Od pair 1551 : 
+1.0
+0.0
+Od pair 1552 : 
+1.0
+0.0
+Od pair 1553 : 
+1.0
+0.0
+Od pair 1554 : 
+1.0
+0.0
+Od pair 1555 : 
+1.0
+0.0
+Od pair 1556 : 
+1.0
+0.0
+Od pair 1557 : 
+1.0
+0.0
+Od pair 1558 : 
+1.0
+0.0
+Od pair 1559 : 
+1.0
+0.0
+Od pair 1560 : 
+1.0
+0.0
+Od pair 1561 : 
+1.0
+0.0
+Od pair 1562 : 
+1.0
+0.0
+Od pair 1563 : 
+1.0
+0.0
+Od pair 1564 : 
+1.0
+0.0
+Od pair 1565 : 
+1.0
+0.0
+Od pair 1566 : 
+1.0
+0.0
+Od pair 1567 : 
+1.0
+0.0
+Od pair 1568 : 
+1.0
+0.0
+Od pair 1569 : 
+1.0
+0.0
+Od pair 1570 : 
+1.0
+0.0
+Od pair 1571 : 
+1.0
+0.0
+Od pair 1572 : 
+1.0
+0.0
+Od pair 1573 : 
+1.0
+0.0
+Od pair 1574 : 
+1.0
+0.0
+Od pair 1575 : 
+1.0
+0.0
+Od pair 1576 : 
+1.0
+0.0
+Od pair 1577 : 
+1.0
+0.0
+Od pair 1578 : 
+1.0
+0.0
+Od pair 1579 : 
+1.0
+0.0
+Od pair 1580 : 
+1.0
+0.0
+Od pair 1581 : 
+1.0
+0.0
+Od pair 1582 : 
+1.0
+0.0
+Od pair 1583 : 
+1.0
+0.0
+Od pair 1584 : 
+1.0
+0.0
+Od pair 1585 : 
+1.0
+0.0
+Od pair 1586 : 
+1.0
+0.0
+Od pair 1587 : 
+1.0
+0.0
+Od pair 1588 : 
+1.0
+0.0
+Od pair 1589 : 
+1.0
+0.0
+Od pair 1590 : 
+1.0
+0.0
+Od pair 1591 : 
+1.0
+0.0
+Od pair 1592 : 
+1.0
+0.0
+Od pair 1593 : 
+1.0
+0.0
+Od pair 1594 : 
+1.0
+0.0
+Od pair 1595 : 
+1.0
+0.0
+Od pair 1596 : 
+1.0
+0.0
+Od pair 1597 : 
+1.0
+0.0
+Od pair 1598 : 
+1.0
+0.0
+Od pair 1599 : 
+1.0
+0.0
+Od pair 1600 : 
+1.0
+0.0
+Od pair 1601 : 
+1.0
+0.0
+Od pair 1602 : 
+1.0
+0.0
+Od pair 1603 : 
+1.0
+0.0
+Od pair 1604 : 
+1.0
+0.0
+Od pair 1605 : 
+1.0
+0.0
+Od pair 1606 : 
+1.0
+0.0
+Od pair 1607 : 
+1.0
+0.0
+Od pair 1608 : 
+1.0
+0.0
+Od pair 1609 : 
+1.0
+0.0
+Od pair 1610 : 
+1.0
+0.0
+Od pair 1611 : 
+1.0
+0.0
+Od pair 1612 : 
+1.0
+0.0
+Od pair 1613 : 
+1.0
+0.0
+Od pair 1614 : 
+1.0
+0.0
+Od pair 1615 : 
+1.0
+0.0
+Od pair 1616 : 
+1.0
+0.0
+Od pair 1617 : 
+1.0
+0.0
+Od pair 1618 : 
+1.0
+0.0
+Od pair 1619 : 
+1.0
+0.0
+Od pair 1620 : 
+1.0
+0.0
+Od pair 1621 : 
+1.0
+0.0
+Od pair 1622 : 
+1.0
+0.0
+Od pair 1623 : 
+1.0
+0.0
+Od pair 1624 : 
+1.0
+0.0
+Od pair 1625 : 
+1.0
+0.0
+Od pair 1626 : 
+1.0
+0.0
+Od pair 1627 : 
+1.0
+0.0
+Od pair 1628 : 
+1.0
+0.0
+Od pair 1629 : 
+1.0
+0.0
+Od pair 1630 : 
+1.0
+0.0
+Od pair 1631 : 
+1.0
+0.0
+Od pair 1632 : 
+1.0
+0.0
+Od pair 1633 : 
+1.0
+0.0
+Od pair 1634 : 
+1.0
+0.0
+Od pair 1635 : 
+1.0
+0.0
+Od pair 1636 : 
+1.0
+0.0
+Od pair 1637 : 
+1.0
+0.0
+Od pair 1638 : 
+1.0
+0.0
+Od pair 1639 : 
+1.0
+0.0
+Od pair 1640 : 
+1.0
+0.0
+Od pair 1641 : 
+1.0
+0.0
+Od pair 1642 : 
+1.0
+0.0
+Od pair 1643 : 
+1.0
+0.0
+Od pair 1644 : 
+1.0
+0.0
+Od pair 1645 : 
+1.0
+0.0
+Od pair 1646 : 
+1.0
+0.0
+Od pair 1647 : 
+1.0
+0.0
+Od pair 1648 : 
+1.0
+0.0
+Od pair 1649 : 
+1.0
+0.0
+Od pair 1650 : 
+1.0
+0.0
+Od pair 1651 : 
+1.0
+0.0
+Od pair 1652 : 
+1.0
+0.0
+Od pair 1653 : 
+1.0
+0.0
+Od pair 1654 : 
+1.0
+0.0
+Od pair 1655 : 
+1.0
+0.0
+Od pair 1656 : 
+1.0
+0.0
+Od pair 1657 : 
+1.0
+0.0
+Od pair 1658 : 
+1.0
+0.0
+Od pair 1659 : 
+1.0
+0.0
+Od pair 1660 : 
+1.0
+0.0
+Od pair 1661 : 
+1.0
+0.0
+Od pair 1662 : 
+1.0
+0.0
+Od pair 1663 : 
+1.0
+0.0
+Od pair 1664 : 
+1.0
+0.0
+Od pair 1665 : 
+1.0
+0.0
+Od pair 1666 : 
+1.0
+0.0
+Od pair 1667 : 
+1.0
+0.0
+Od pair 1668 : 
+1.0
+0.0
+Od pair 1669 : 
+1.0
+0.0
+Od pair 1670 : 
+1.0
+0.0
+Od pair 1671 : 
+1.0
+0.0
+Od pair 1672 : 
+1.0
+0.0
+Od pair 1673 : 
+1.0
+0.0
+Od pair 1674 : 
+1.0
+0.0
+Od pair 1675 : 
+1.0
+0.0
+Od pair 1676 : 
+1.0
+0.0
+Od pair 1677 : 
+1.0
+0.0
+Od pair 1678 : 
+1.0
+0.0
+Od pair 1679 : 
+1.0
+0.0
+Od pair 1680 : 
+1.0
+0.0
+Od pair 1681 : 
+1.0
+0.0
+Od pair 1682 : 
+1.0
+0.0
+Od pair 1683 : 
+1.0
+0.0
+Od pair 1684 : 
+1.0
+0.0
+Od pair 1685 : 
+1.0
+0.0
+Od pair 1686 : 
+1.0
+0.0
+Od pair 1687 : 
+1.0
+0.0
+Od pair 1688 : 
+1.0
+0.0
+Od pair 1689 : 
+1.0
+0.0
+Od pair 1690 : 
+1.0
+0.0
+Od pair 1691 : 
+1.0
+0.0
+Od pair 1692 : 
+1.0
+0.0
+Od pair 1693 : 
+1.0
+0.0
+Od pair 1694 : 
+1.0
+0.0
+Od pair 1695 : 
+1.0
+0.0
+Od pair 1696 : 
+1.0
+0.0
+Od pair 1697 : 
+1.0
+0.0
+Od pair 1698 : 
+1.0
+0.0
+Od pair 1699 : 
+1.0
+0.0
+Od pair 1700 : 
+1.0
+0.0
+Od pair 1701 : 
+1.0
+0.0
+Od pair 1702 : 
+1.0
+0.0
+Od pair 1703 : 
+1.0
+0.0
+Od pair 1704 : 
+1.0
+0.0
+Od pair 1705 : 
+1.0
+0.0
+Od pair 1706 : 
+1.0
+0.0
+Od pair 1707 : 
+1.0
+0.0
+Od pair 1708 : 
+1.0
+0.0
+Od pair 1709 : 
+1.0
+0.0
+Od pair 1710 : 
+1.0
+0.0
+Od pair 1711 : 
+1.0
+0.0
+Od pair 1712 : 
+1.0
+0.0
+Od pair 1713 : 
+1.0
+0.0
+Od pair 1714 : 
+1.0
+0.0
+Od pair 1715 : 
+1.0
+0.0
+Od pair 1716 : 
+1.0
+0.0
+Od pair 1717 : 
+1.0
+0.0
+Od pair 1718 : 
+1.0
+0.0
+Od pair 1719 : 
+1.0
+0.0
+Od pair 1720 : 
+1.0
+0.0
+Od pair 1721 : 
+1.0
+0.0
+Od pair 1722 : 
+1.0
+0.0
+Od pair 1723 : 
+1.0
+0.0
+Od pair 1724 : 
+1.0
+0.0
+Od pair 1725 : 
+1.0
+0.0
+Od pair 1726 : 
+1.0
+0.0
+Od pair 1727 : 
+1.0
+0.0
+Od pair 1728 : 
+1.0
+0.0
+Od pair 1729 : 
+1.0
+0.0
+Od pair 1730 : 
+1.0
+0.0
+Od pair 1731 : 
+1.0
+0.0
+Od pair 1732 : 
+1.0
+0.0
+Od pair 1733 : 
+1.0
+0.0
+Od pair 1734 : 
+1.0
+0.0
+Od pair 1735 : 
+1.0
+0.0
+Od pair 1736 : 
+1.0
+0.0
+Od pair 1737 : 
+1.0
+0.0
+Od pair 1738 : 
+1.0
+0.0
+Od pair 1739 : 
+1.0
+0.0
+Od pair 1740 : 
+1.0
+0.0
+Od pair 1741 : 
+1.0
+0.0
+Od pair 1742 : 
+1.0
+0.0
+Od pair 1743 : 
+1.0
+0.0
+Od pair 1744 : 
+1.0
+0.0
+Od pair 1745 : 
+1.0
+0.0
+Od pair 1746 : 
+1.0
+0.0
+Od pair 1747 : 
+1.0
+0.0
+Od pair 1748 : 
+1.0
+0.0
+Od pair 1749 : 
+1.0
+0.0
+Od pair 1750 : 
+1.0
+0.0
+Od pair 1751 : 
+1.0
+0.0
+Od pair 1752 : 
+1.0
+0.0
+Od pair 1753 : 
+1.0
+0.0
+Od pair 1754 : 
+1.0
+0.0
+Od pair 1755 : 
+1.0
+0.0
+Od pair 1756 : 
+1.0
+0.0
+Od pair 1757 : 
+1.0
+0.0
+Od pair 1758 : 
+1.0
+0.0
+Od pair 1759 : 
+1.0
+0.0
+Od pair 1760 : 
+1.0
+0.0
+Od pair 1761 : 
+1.0
+0.0
+Od pair 1762 : 
+1.0
+0.0
+Od pair 1763 : 
+1.0
+0.0
+Od pair 1764 : 
+1.0
+0.0
+Od pair 1765 : 
+1.0
+0.0
+Od pair 1766 : 
+1.0
+0.0
+Od pair 1767 : 
+1.0
+0.0
+Od pair 1768 : 
+1.0
+0.0
+Od pair 1769 : 
+1.0
+0.0
+Od pair 1770 : 
+1.0
+0.0
+Od pair 1771 : 
+1.0
+0.0
+Od pair 1772 : 
+1.0
+0.0
+Od pair 1773 : 
+1.0
+0.0
+Od pair 1774 : 
+1.0
+0.0
+Od pair 1775 : 
+1.0
+0.0
+Od pair 1776 : 
+1.0
+0.0
+Od pair 1777 : 
+1.0
+0.0
+Od pair 1778 : 
+1.0
+0.0
+Od pair 1779 : 
+1.0
+0.0
+Od pair 1780 : 
+1.0
+0.0
+Od pair 1781 : 
+1.0
+0.0
+Od pair 1782 : 
+1.0
+0.0
+Od pair 1783 : 
+1.0
+0.0
+Od pair 1784 : 
+1.0
+0.0
+Od pair 1785 : 
+1.0
+0.0
+Od pair 1786 : 
+1.0
+0.0
+Od pair 1787 : 
+1.0
+0.0
+Od pair 1788 : 
+1.0
+0.0
+Od pair 1789 : 
+1.0
+0.0
+Od pair 1790 : 
+1.0
+0.0
+Od pair 1791 : 
+1.0
+0.0
+Od pair 1792 : 
+1.0
+0.0
+Od pair 1793 : 
+1.0
+0.0
+Od pair 1794 : 
+1.0
+0.0
+Od pair 1795 : 
+1.0
+0.0
+Od pair 1796 : 
+1.0
+0.0
+Od pair 1797 : 
+1.0
+0.0
+Od pair 1798 : 
+1.0
+0.0
+Od pair 1799 : 
+1.0
+0.0
+Od pair 1800 : 
+1.0
+0.0
+Od pair 1801 : 
+1.0
+0.0
+Od pair 1802 : 
+1.0
+0.0
+Od pair 1803 : 
+1.0
+0.0
+Od pair 1804 : 
+1.0
+0.0
+Od pair 1805 : 
+1.0
+0.0
+Od pair 1806 : 
+1.0
+0.0
+Od pair 1807 : 
+1.0
+0.0
+Od pair 1808 : 
+1.0
+0.0
+Od pair 1809 : 
+1.0
+0.0
+Od pair 1810 : 
+1.0
+0.0
+Od pair 1811 : 
+1.0
+0.0
+Od pair 1812 : 
+1.0
+0.0
+Od pair 1813 : 
+1.0
+0.0
+Od pair 1814 : 
+1.0
+0.0
+Od pair 1815 : 
+1.0
+0.0
+Od pair 1816 : 
+1.0
+0.0
+Od pair 1817 : 
+1.0
+0.0
+Od pair 1818 : 
+1.0
+0.0
+Od pair 1819 : 
+1.0
+0.0
+Od pair 1820 : 
+1.0
+0.0
+Od pair 1821 : 
+1.0
+0.0
+Od pair 1822 : 
+1.0
+0.0
+Od pair 1823 : 
+1.0
+0.0
+Od pair 1824 : 
+1.0
+0.0
+Od pair 1825 : 
+1.0
+0.0
+Od pair 1826 : 
+1.0
+0.0
+Od pair 1827 : 
+1.0
+0.0
+Od pair 1828 : 
+1.0
+0.0
+Od pair 1829 : 
+1.0
+0.0
+Od pair 1830 : 
+1.0
+0.0
+Od pair 1831 : 
+1.0
+0.0
+Od pair 1832 : 
+1.0
+0.0
+Od pair 1833 : 
+1.0
+0.0
+Od pair 1834 : 
+1.0
+0.0
+Od pair 1835 : 
+1.0
+0.0
+Od pair 1836 : 
+1.0
+0.0
+Od pair 1837 : 
+1.0
+0.0
+Od pair 1838 : 
+1.0
+0.0
+Od pair 1839 : 
+1.0
+0.0
+Od pair 1840 : 
+1.0
+0.0
+Od pair 1841 : 
+1.0
+0.0
+Od pair 1842 : 
+1.0
+0.0
+Od pair 1843 : 
+1.0
+0.0
+Od pair 1844 : 
+1.0
+0.0
+Od pair 1845 : 
+1.0
+0.0
+Od pair 1846 : 
+1.0
+0.0
+Od pair 1847 : 
+1.0
+0.0
+Od pair 1848 : 
+1.0
+0.0
+Od pair 1849 : 
+1.0
+0.0
+Od pair 1850 : 
+1.0
+0.0
+Od pair 1851 : 
+1.0
+0.0
+Od pair 1852 : 
+1.0
+0.0
+Od pair 1853 : 
+1.0
+0.0
+Od pair 1854 : 
+1.0
+0.0
+Od pair 1855 : 
+1.0
+0.0
+Od pair 1856 : 
+1.0
+0.0
+Od pair 1857 : 
+1.0
+0.0
+Od pair 1858 : 
+1.0
+0.0
+Od pair 1859 : 
+1.0
+0.0
+Od pair 1860 : 
+1.0
+0.0
+Od pair 1861 : 
+1.0
+0.0
+Od pair 1862 : 
+1.0
+0.0
+Od pair 1863 : 
+1.0
+0.0
+Od pair 1864 : 
+1.0
+0.0
+Od pair 1865 : 
+1.0
+0.0
+Od pair 1866 : 
+1.0
+0.0
+Od pair 1867 : 
+1.0
+0.0
+Od pair 1868 : 
+1.0
+0.0
+Od pair 1869 : 
+1.0
+0.0
+Od pair 1870 : 
+1.0
+0.0
+Od pair 1871 : 
+1.0
+0.0
+Od pair 1872 : 
+1.0
+0.0
+Od pair 1873 : 
+1.0
+0.0
+Od pair 1874 : 
+1.0
+0.0
+Od pair 1875 : 
+1.0
+0.0
+Od pair 1876 : 
+1.0
+0.0
+Od pair 1877 : 
+1.0
+0.0
+Od pair 1878 : 
+1.0
+0.0
+Od pair 1879 : 
+1.0
+0.0
+Od pair 1880 : 
+1.0
+0.0
+Od pair 1881 : 
+1.0
+0.0
+Od pair 1882 : 
+1.0
+0.0
+Od pair 1883 : 
+1.0
+0.0
+Od pair 1884 : 
+1.0
+0.0
+Od pair 1885 : 
+1.0
+0.0
+Od pair 1886 : 
+1.0
+0.0
+Od pair 1887 : 
+1.0
+0.0
+Od pair 1888 : 
+1.0
+0.0
+Od pair 1889 : 
+1.0
+0.0
+Od pair 1890 : 
+1.0
+0.0
+Od pair 1891 : 
+1.0
+0.0
+Od pair 1892 : 
+1.0
+0.0
+Od pair 1893 : 
+1.0
+0.0
+Od pair 1894 : 
+1.0
+0.0
+Od pair 1895 : 
+1.0
+0.0
+Od pair 1896 : 
+1.0
+0.0
+Od pair 1897 : 
+1.0
+0.0
+Od pair 1898 : 
+1.0
+0.0
+Od pair 1899 : 
+1.0
+0.0
+Od pair 1900 : 
+1.0
+0.0
+Od pair 1901 : 
+1.0
+0.0
+Od pair 1902 : 
+1.0
+0.0
+Od pair 1903 : 
+1.0
+0.0
+Od pair 1904 : 
+1.0
+0.0
+Od pair 1905 : 
+1.0
+0.0
+Od pair 1906 : 
+1.0
+0.0
+Od pair 1907 : 
+1.0
+0.0
+Od pair 1908 : 
+1.0
+0.0
+Od pair 1909 : 
+1.0
+0.0
+Od pair 1910 : 
+1.0
+0.0
+Od pair 1911 : 
+1.0
+0.0
+Od pair 1912 : 
+1.0
+0.0
+Od pair 1913 : 
+1.0
+0.0
+Od pair 1914 : 
+1.0
+0.0
+Od pair 1915 : 
+1.0
+0.0
+Od pair 1916 : 
+1.0
+0.0
+Od pair 1917 : 
+1.0
+0.0
+Od pair 1918 : 
+1.0
+0.0
+Od pair 1919 : 
+1.0
+0.0
+Od pair 1920 : 
+1.0
+0.0
+Od pair 1921 : 
+1.0
+0.0
+Od pair 1922 : 
+1.0
+0.0
+Od pair 1923 : 
+1.0
+0.0
+Od pair 1924 : 
+1.0
+0.0
+Od pair 1925 : 
+1.0
+0.0
+Od pair 1926 : 
+1.0
+0.0
+Od pair 1927 : 
+1.0
+0.0
+Od pair 1928 : 
+1.0
+0.0
+Od pair 1929 : 
+1.0
+0.0
+Od pair 1930 : 
+1.0
+0.0
+Od pair 1931 : 
+1.0
+0.0
+Od pair 1932 : 
+1.0
+0.0
+Od pair 1933 : 
+1.0
+0.0
+Od pair 1934 : 
+1.0
+0.0
+Od pair 1935 : 
+1.0
+0.0
+Od pair 1936 : 
+1.0
+0.0
+Od pair 1937 : 
+1.0
+0.0
+Od pair 1938 : 
+1.0
+0.0
+Od pair 1939 : 
+1.0
+0.0
+Od pair 1940 : 
+1.0
+0.0
+Od pair 1941 : 
+1.0
+0.0
+Od pair 1942 : 
+1.0
+0.0
+Od pair 1943 : 
+1.0
+0.0
+Od pair 1944 : 
+1.0
+0.0
+Od pair 1945 : 
+1.0
+0.0
+Od pair 1946 : 
+1.0
+0.0
+Od pair 1947 : 
+1.0
+0.0
+Od pair 1948 : 
+1.0
+0.0
+Od pair 1949 : 
+1.0
+0.0
+Od pair 1950 : 
+1.0
+0.0
+Od pair 1951 : 
+1.0
+0.0
+Od pair 1952 : 
+1.0
+0.0
+Od pair 1953 : 
+1.0
+0.0
+Od pair 1954 : 
+1.0
+0.0
+Od pair 1955 : 
+1.0
+0.0
+Od pair 1956 : 
+1.0
+0.0
+Od pair 1957 : 
+1.0
+0.0
+Od pair 1958 : 
+1.0
+0.0
+Od pair 1959 : 
+1.0
+0.0
+Od pair 1960 : 
+1.0
+0.0
+Od pair 1961 : 
+1.0
+0.0
+Od pair 1962 : 
+1.0
+0.0
+Od pair 1963 : 
+1.0
+0.0
+Od pair 1964 : 
+1.0
+0.0
+Od pair 1965 : 
+1.0
+0.0
+Od pair 1966 : 
+1.0
+0.0
+Od pair 1967 : 
+1.0
+0.0
+Od pair 1968 : 
+1.0
+0.0
+Od pair 1969 : 
+1.0
+0.0
+Od pair 1970 : 
+1.0
+0.0
+Od pair 1971 : 
+1.0
+0.0
+Od pair 1972 : 
+1.0
+0.0
+Od pair 1973 : 
+1.0
+0.0
+Od pair 1974 : 
+1.0
+0.0
+Od pair 1975 : 
+1.0
+0.0
+Od pair 1976 : 
+1.0
+0.0
+Od pair 1977 : 
+1.0
+0.0
+Od pair 1978 : 
+1.0
+0.0
+Od pair 1979 : 
+1.0
+0.0
+Od pair 1980 : 
+1.0
+0.0
+Od pair 1981 : 
+1.0
+0.0
+Od pair 1982 : 
+1.0
+0.0
+Od pair 1983 : 
+1.0
+0.0
+Od pair 1984 : 
+1.0
+0.0
+Od pair 1985 : 
+1.0
+0.0
+Od pair 1986 : 
+1.0
+0.0
+Od pair 1987 : 
+1.0
+0.0
+Od pair 1988 : 
+1.0
+0.0
+Od pair 1989 : 
+1.0
+0.0
+Od pair 1990 : 
+1.0
+0.0
+Od pair 1991 : 
+1.0
+0.0
+Od pair 1992 : 
+1.0
+0.0
+Od pair 1993 : 
+1.0
+0.0
+Od pair 1994 : 
+1.0
+0.0
+Od pair 1995 : 
+1.0
+0.0
+Od pair 1996 : 
+1.0
+0.0
+Od pair 1997 : 
+1.0
+0.0
+Od pair 1998 : 
+1.0
+0.0
+Od pair 1999 : 
+1.0
+0.0
+Od pair 2000 : 
+1.0
+0.0
+Od pair 2001 : 
+1.0
+0.0
+Od pair 2002 : 
+1.0
+0.0
+Od pair 2003 : 
+1.0
+0.0
+Od pair 2004 : 
+1.0
+0.0
+Od pair 2005 : 
+1.0
+0.0
+Od pair 2006 : 
+1.0
+0.0
+Od pair 2007 : 
+1.0
+0.0
+Od pair 2008 : 
+1.0
+0.0
+Od pair 2009 : 
+1.0
+0.0
+Od pair 2010 : 
+1.0
+0.0
+Od pair 2011 : 
+1.0
+0.0
+Od pair 2012 : 
+1.0
+0.0
+Od pair 2013 : 
+1.0
+0.0
+Od pair 2014 : 
+1.0
+0.0
+Od pair 2015 : 
+1.0
+0.0
+Od pair 2016 : 
+1.0
+0.0
+Od pair 2017 : 
+1.0
+0.0
+Od pair 2018 : 
+1.0
+0.0
+Od pair 2019 : 
+1.0
+0.0
+Od pair 2020 : 
+1.0
+0.0
+Od pair 2021 : 
+1.0
+0.0
+Od pair 2022 : 
+1.0
+0.0
+Od pair 2023 : 
+1.0
+0.0
+Od pair 2024 : 
+1.0
+0.0
+Od pair 2025 : 
+1.0
+0.0
+Od pair 2026 : 
+1.0
+0.0
+Od pair 2027 : 
+1.0
+0.0
+Od pair 2028 : 
+1.0
+0.0
+Od pair 2029 : 
+1.0
+0.0
+Od pair 2030 : 
+1.0
+0.0
+Od pair 2031 : 
+1.0
+0.0
+Od pair 2032 : 
+1.0
+0.0
+Od pair 2033 : 
+1.0
+0.0
+Od pair 2034 : 
+1.0
+0.0
+Od pair 2035 : 
+1.0
+0.0
+Od pair 2036 : 
+1.0
+0.0
+Od pair 2037 : 
+1.0
+0.0
+Od pair 2038 : 
+1.0
+0.0
+Od pair 2039 : 
+1.0
+0.0
+Od pair 2040 : 
+1.0
+0.0
+Od pair 2041 : 
+1.0
+0.0
+Od pair 2042 : 
+1.0
+0.0
+Od pair 2043 : 
+1.0
+0.0
+Od pair 2044 : 
+1.0
+0.0
+Od pair 2045 : 
+1.0
+0.0
+Od pair 2046 : 
+1.0
+0.0
+Od pair 2047 : 
+1.0
+0.0
+Od pair 2048 : 
+1.0
+0.0
+Od pair 2049 : 
+1.0
+0.0
+Od pair 2050 : 
+1.0
+0.0
+Od pair 2051 : 
+1.0
+0.0
+Od pair 2052 : 
+1.0
+0.0
+Od pair 2053 : 
+1.0
+0.0
+Od pair 2054 : 
+1.0
+0.0
+Od pair 2055 : 
+1.0
+0.0
+Od pair 2056 : 
+1.0
+0.0
+Od pair 2057 : 
+1.0
+0.0
+Od pair 2058 : 
+1.0
+0.0
+Od pair 2059 : 
+1.0
+0.0
+Od pair 2060 : 
+1.0
+0.0
+Od pair 2061 : 
+1.0
+0.0
+Od pair 2062 : 
+1.0
+0.0
+Od pair 2063 : 
+1.0
+0.0
+Od pair 2064 : 
+1.0
+0.0
+Od pair 2065 : 
+1.0
+0.0
+Od pair 2066 : 
+1.0
+0.0
+Od pair 2067 : 
+1.0
+0.0
+Od pair 2068 : 
+1.0
+0.0
+Od pair 2069 : 
+1.0
+0.0
+Od pair 2070 : 
+1.0
+0.0
+Od pair 2071 : 
+1.0
+0.0
+Od pair 2072 : 
+1.0
+0.0
+Od pair 2073 : 
+1.0
+0.0
+Od pair 2074 : 
+1.0
+0.0
+Od pair 2075 : 
+1.0
+0.0
+Od pair 2076 : 
+1.0
+0.0
+Od pair 2077 : 
+1.0
+0.0
+Od pair 2078 : 
+1.0
+0.0
+Od pair 2079 : 
+1.0
+0.0
+Od pair 2080 : 
+1.0
+0.0
+Od pair 2081 : 
+1.0
+0.0
+Od pair 2082 : 
+1.0
+0.0
+Od pair 2083 : 
+1.0
+0.0
+Od pair 2084 : 
+1.0
+0.0
+Od pair 2085 : 
+1.0
+0.0
+Od pair 2086 : 
+1.0
+0.0
+Od pair 2087 : 
+1.0
+0.0
+Od pair 2088 : 
+1.0
+0.0
+Od pair 2089 : 
+1.0
+0.0
+Od pair 2090 : 
+1.0
+0.0
+Od pair 2091 : 
+1.0
+0.0
+Od pair 2092 : 
+1.0
+0.0
+Od pair 2093 : 
+1.0
+0.0
+Od pair 2094 : 
+1.0
+0.0
+Od pair 2095 : 
+1.0
+0.0
+Od pair 2096 : 
+1.0
+0.0
+Od pair 2097 : 
+1.0
+0.0
+Od pair 2098 : 
+1.0
+0.0
+Od pair 2099 : 
+1.0
+0.0
+Od pair 2100 : 
+1.0
+0.0
+Od pair 2101 : 
+1.0
+0.0
+Od pair 2102 : 
+1.0
+0.0
+Od pair 2103 : 
+1.0
+0.0
+Od pair 2104 : 
+1.0
+0.0
+Od pair 2105 : 
+1.0
+0.0
+Od pair 2106 : 
+1.0
+0.0
+Od pair 2107 : 
+1.0
+0.0
+Od pair 2108 : 
+1.0
+0.0
+Od pair 2109 : 
+1.0
+0.0
+Od pair 2110 : 
+1.0
+0.0
+Od pair 2111 : 
+1.0
+0.0
+Od pair 2112 : 
+1.0
+0.0
+Od pair 2113 : 
+1.0
+0.0
+Od pair 2114 : 
+1.0
+0.0
+Od pair 2115 : 
+1.0
+0.0
+Od pair 2116 : 
+1.0
+0.0
+Od pair 2117 : 
+1.0
+0.0
+Od pair 2118 : 
+1.0
+0.0
+Od pair 2119 : 
+1.0
+0.0
+Od pair 2120 : 
+1.0
+0.0
+Od pair 2121 : 
+1.0
+0.0
+Od pair 2122 : 
+1.0
+0.0
+Od pair 2123 : 
+1.0
+0.0
+Od pair 2124 : 
+1.0
+0.0
+Od pair 2125 : 
+1.0
+0.0
+Od pair 2126 : 
+1.0
+0.0
+Od pair 2127 : 
+1.0
+0.0
+Od pair 2128 : 
+1.0
+0.0
+Od pair 2129 : 
+1.0
+0.0
+Od pair 2130 : 
+1.0
+0.0
+Od pair 2131 : 
+1.0
+0.0
+Od pair 2132 : 
+1.0
+0.0
+Od pair 2133 : 
+1.0
+0.0
+Od pair 2134 : 
+1.0
+0.0
+Od pair 2135 : 
+1.0
+0.0
+Od pair 2136 : 
+1.0
+0.0
+Od pair 2137 : 
+1.0
+0.0
+Od pair 2138 : 
+1.0
+0.0
+Od pair 2139 : 
+1.0
+0.0
+Od pair 2140 : 
+1.0
+0.0
+Od pair 2141 : 
+1.0
+0.0
+Od pair 2142 : 
+1.0
+0.0
+Od pair 2143 : 
+1.0
+0.0
+Od pair 2144 : 
+1.0
+0.0
+Od pair 2145 : 
+1.0
+0.0
+Od pair 2146 : 
+1.0
+0.0
+Od pair 2147 : 
+1.0
+0.0
+Od pair 2148 : 
+1.0
+0.0
+Od pair 2149 : 
+1.0
+0.0
+Od pair 2150 : 
+1.0
+0.0
+Od pair 2151 : 
+1.0
+0.0
+Od pair 2152 : 
+1.0
+0.0
+Od pair 2153 : 
+1.0
+0.0
+Od pair 2154 : 
+1.0
+0.0
+Od pair 2155 : 
+1.0
+0.0
+Od pair 2156 : 
+1.0
+0.0
+Od pair 2157 : 
+1.0
+0.0
+Od pair 2158 : 
+1.0
+0.0
+Od pair 2159 : 
+1.0
+0.0
+Od pair 2160 : 
+1.0
+0.0
+Od pair 2161 : 
+1.0
+0.0
+Od pair 2162 : 
+1.0
+0.0
+Od pair 2163 : 
+1.0
+0.0
+Od pair 2164 : 
+1.0
+0.0
+Od pair 2165 : 
+1.0
+0.0
+Od pair 2166 : 
+1.0
+0.0
+Od pair 2167 : 
+1.0
+0.0
+Od pair 2168 : 
+1.0
+0.0
+Od pair 2169 : 
+1.0
+0.0
+Od pair 2170 : 
+1.0
+0.0
+Od pair 2171 : 
+1.0
+0.0
+Od pair 2172 : 
+1.0
+0.0
+Od pair 2173 : 
+1.0
+0.0
+Od pair 2174 : 
+1.0
+0.0
+Od pair 2175 : 
+1.0
+0.0
+Od pair 2176 : 
+1.0
+0.0
+Od pair 2177 : 
+1.0
+0.0
+Od pair 2178 : 
+1.0
+0.0
+Od pair 2179 : 
+1.0
+0.0
+Od pair 2180 : 
+1.0
+0.0
+Od pair 2181 : 
+1.0
+0.0
+Od pair 2182 : 
+1.0
+0.0
+Od pair 2183 : 
+1.0
+0.0
+Od pair 2184 : 
+1.0
+0.0
+Od pair 2185 : 
+1.0
+0.0
+Od pair 2186 : 
+1.0
+0.0
+Od pair 2187 : 
+1.0
+0.0
+Od pair 2188 : 
+1.0
+0.0
+Od pair 2189 : 
+1.0
+0.0
+Od pair 2190 : 
+1.0
+0.0
+Od pair 2191 : 
+1.0
+0.0
+Od pair 2192 : 
+1.0
+0.0
+Od pair 2193 : 
+1.0
+0.0
+Od pair 2194 : 
+1.0
+0.0
+Od pair 2195 : 
+1.0
+0.0
+Od pair 2196 : 
+1.0
+0.0
+Od pair 2197 : 
+1.0
+0.0
+Od pair 2198 : 
+1.0
+0.0
+Od pair 2199 : 
+1.0
+0.0
+Od pair 2200 : 
+1.0
+0.0
+Od pair 2201 : 
+1.0
+0.0
+Od pair 2202 : 
+1.0
+0.0
+Od pair 2203 : 
+1.0
+0.0
+Od pair 2204 : 
+1.0
+0.0
+Od pair 2205 : 
+1.0
+0.0
+Od pair 2206 : 
+1.0
+0.0
+Od pair 2207 : 
+1.0
+0.0
+Od pair 2208 : 
+1.0
+0.0
+Od pair 2209 : 
+1.0
+0.0
+Od pair 2210 : 
+1.0
+0.0
+Od pair 2211 : 
+1.0
+0.0
+Od pair 2212 : 
+1.0
+0.0
+Od pair 2213 : 
+1.0
+0.0
+Od pair 2214 : 
+1.0
+0.0
+Od pair 2215 : 
+1.0
+0.0
+Od pair 2216 : 
+1.0
+0.0
+Od pair 2217 : 
+1.0
+0.0
+Od pair 2218 : 
+1.0
+0.0
+Od pair 2219 : 
+1.0
+0.0
+Od pair 2220 : 
+1.0
+0.0
+Od pair 2221 : 
+1.0
+0.0
+Od pair 2222 : 
+1.0
+0.0
+Od pair 2223 : 
+1.0
+0.0
+Od pair 2224 : 
+1.0
+0.0
+Od pair 2225 : 
+1.0
+0.0
+Od pair 2226 : 
+1.0
+0.0
+Od pair 2227 : 
+1.0
+0.0
+Od pair 2228 : 
+1.0
+0.0
+Od pair 2229 : 
+1.0
+0.0
+Od pair 2230 : 
+1.0
+0.0
+Od pair 2231 : 
+1.0
+0.0
+Od pair 2232 : 
+1.0
+0.0
+Od pair 2233 : 
+1.0
+0.0
+Od pair 2234 : 
+1.0
+0.0
+Od pair 2235 : 
+1.0
+0.0
+Od pair 2236 : 
+1.0
+0.0
+Od pair 2237 : 
+1.0
+0.0
+Od pair 2238 : 
+1.0
+0.0
+Od pair 2239 : 
+1.0
+0.0
+Od pair 2240 : 
+1.0
+0.0
+Od pair 2241 : 
+1.0
+0.0
+Od pair 2242 : 
+1.0
+0.0
+Od pair 2243 : 
+1.0
+0.0
+Od pair 2244 : 
+1.0
+0.0
+Od pair 2245 : 
+1.0
+0.0
+Od pair 2246 : 
+1.0
+0.0
+Od pair 2247 : 
+1.0
+0.0
+Od pair 2248 : 
+1.0
+0.0
+Od pair 2249 : 
+1.0
+0.0
+Od pair 2250 : 
+1.0
+0.0
+Od pair 2251 : 
+1.0
+0.0
+Od pair 2252 : 
+1.0
+0.0
+Od pair 2253 : 
+1.0
+0.0
+Od pair 2254 : 
+1.0
+0.0
+Od pair 2255 : 
+1.0
+0.0
+Od pair 2256 : 
+1.0
+0.0
+Od pair 2257 : 
+1.0
+0.0
+Od pair 2258 : 
+1.0
+0.0
+Od pair 2259 : 
+1.0
+0.0
+Od pair 2260 : 
+1.0
+0.0
+Od pair 2261 : 
+1.0
+0.0
+Od pair 2262 : 
+1.0
+0.0
+Od pair 2263 : 
+1.0
+0.0
+Od pair 2264 : 
+1.0
+0.0
+Od pair 2265 : 
+1.0
+0.0
+Od pair 2266 : 
+1.0
+0.0
+Od pair 2267 : 
+1.0
+0.0
+Od pair 2268 : 
+1.0
+0.0
+Od pair 2269 : 
+1.0
+0.0
+Od pair 2270 : 
+1.0
+0.0
+Od pair 2271 : 
+1.0
+0.0
+Od pair 2272 : 
+1.0
+0.0
+Od pair 2273 : 
+1.0
+0.0
+Od pair 2274 : 
+1.0
+0.0
+Od pair 2275 : 
+1.0
+0.0
+Od pair 2276 : 
+1.0
+0.0
+Od pair 2277 : 
+1.0
+0.0
+Od pair 2278 : 
+1.0
+0.0
+Od pair 2279 : 
+1.0
+0.0
+Od pair 2280 : 
+1.0
+0.0
+Od pair 2281 : 
+1.0
+0.0
+Od pair 2282 : 
+1.0
+0.0
+Od pair 2283 : 
+1.0
+0.0
+Od pair 2284 : 
+1.0
+0.0
+Od pair 2285 : 
+1.0
+0.0
+Od pair 2286 : 
+1.0
+0.0
+Od pair 2287 : 
+1.0
+0.0
+Od pair 2288 : 
+1.0
+0.0
+Od pair 2289 : 
+1.0
+0.0
+Od pair 2290 : 
+1.0
+0.0
+Od pair 2291 : 
+1.0
+0.0
+Od pair 2292 : 
+1.0
+0.0
+Od pair 2293 : 
+1.0
+0.0
+Od pair 2294 : 
+1.0
+0.0
+Od pair 2295 : 
+1.0
+0.0
+Od pair 2296 : 
+1.0
+0.0
+Od pair 2297 : 
+1.0
+0.0
+Od pair 2298 : 
+1.0
+0.0
+Od pair 2299 : 
+1.0
+0.0
+Od pair 2300 : 
+1.0
+0.0
+Od pair 2301 : 
+1.0
+0.0
+Od pair 2302 : 
+1.0
+0.0
+Od pair 2303 : 
+1.0
+0.0
+Od pair 2304 : 
+1.0
+0.0
+Od pair 2305 : 
+1.0
+0.0
+Od pair 2306 : 
+1.0
+0.0
+Od pair 2307 : 
+1.0
+0.0
+time initial solution727
+
+STEP1 : 
+time rlpm: 280.0
+objective value: 3116089.204526665
+time pricing: 105.0
+dual bound: 3116089.204526665
+
+time IP: 359.0

@@ -1,0 +1,412 @@
+library(tidyverse)
+library(readxl)
+library(openxlsx)
+library(visNetwork)
+library(data.table)
+
+############################################################
+
+#                     -----STOP-----
+############################################################
+
+
+paradas <-  data.table(read_excel("Excels trolebus/paradas-c.xlsx",sheet = 1))
+
+
+lineaida <-  data.table(read_excel("Excels trolebus/paradas-c.xlsx",sheet = 2,range="A1:C35"))
+lineavuelta <-  data.table(read_excel("Excels trolebus/paradas-c.xlsx",sheet = 4,range = "A1:C34"))
+
+lineaida<-paradas[paradas$name %in% lineaida$name,][,name:=paste0(name,"|>")]
+lineavuelta<-paradas[paradas$name %in% lineavuelta$name,][,name:=paste0(name,"<|")][,Y:= Y+250][,X:= X-150]
+
+Stop <- rbind(lineaida,lineavuelta)
+Stop <- Stop[order(ind)][,ind:= seq(1,nrow(Stop))]
+
+nodes <- Stop %>%
+  mutate(id = ind, label = name, title = name, x = X, y = Y, color="#A6E1DA") %>%
+  select(id, label, title, x, y,color)
+
+# Generar matriz de diseño
+layout_matrix <- as.matrix(nodes[, c("x", "y")])
+
+# Graficar usando visNetwork
+visNetwork(nodes, data.frame(from = integer(0), to = integer(0))) %>%
+  visNodes(shape = "dot",borderWidth = 1, size = 8) %>%
+  visPhysics(stabilization = FALSE) %>%
+  visOptions(highlightNearest = TRUE, nodesIdSelection = TRUE) %>%
+  visLayout(randomSeed = 42) %>%
+  visIgraphLayout(layout = "layout.norm", layoutMatrix = layout_matrix)
+
+Stop
+Demand <- copy(Stop)
+Stop[, c("Embarque", "Desembarque") := NULL]
+
+demandcolname <- c("demand-id","short-name","long-name","x-coordinate","y-coordinate","demand")
+Stopcolname <- c("stop-id","short-name","long-name","x-coordinate","y-coordinate")
+Demand <-Demand[,(demandcolname):= .(Demand$ind,Demand$name, Demand$name, Demand$X, Demand$Y, ceiling(Demand$Embarque))]
+Demand[, c("ind", "name","X","Y","Desembarque","Embarque") := NULL]
+Stop <- Stop[,(Stopcolname):= .(Stop$ind,Stop$name, Stop$name, Stop$X, Stop$Y)]
+Stop[, c("ind", "name","X","Y") := NULL]
+
+write.table(Stop, file = "Basis trole dirigido/Stop.giv", sep = "; ", row.names = FALSE, quote = FALSE)
+write.table(Demand, file = "Basis trole dirigido/demand.giv", sep = "; ", row.names = FALSE, quote = FALSE)
+
+############################################################
+
+#                    -----EDGES-----
+############################################################
+
+indice_paradas <- setNames(Stop$`stop-id`, Stop$`long-name`)
+
+linea1 <-  data.table(read_excel("Excels trolebus/paradas-c.xlsx",sheet = 3,range="A1:C35"))
+linea2 <-  data.table(read_excel("Excels trolebus/paradas-c.xlsx",sheet = 5,range = "A1:C34"))
+
+lineaida <- df_linea(linea1)
+lineavuelta <- df_linea(linea2)
+
+edges <- data.table(unique(rbind(lineaida,lineavuelta)) )
+#%>% arrange(Origen,Destino))
+edges <- edges %>% mutate(link_index=seq(1,nrow(edges),by=1),lower_bound=floor(((dist/16.34)*60)/2), upper_bound=ceiling((dist/16.34)*60)*2) 
+
+edges<- edges[,c(4,1,2,3,5,6)]
+colnames(edges) <- c("link_index", "from_stop", "to_stop", "length", "lower_bound", "upper_bound")
+edges
+
+arcos_circuitos <- data.table(link_index =c(66,67), from_stop =c(52,27),to_stop =c(53,28),length =0,lower_bound=0 ,upper_bound=1)
+edges <-rbind(edges,arcos_circuitos)
+edges[,length:= (length/18)*60]
+edges
+
+write.table(edges, file = "Basis trole dirigido/Edge.giv", sep = "; ", row.names = FALSE, quote = FALSE)
+
+save(Stop,edges,file = "Basis trole dirigido/paradas_y_aristas_trole_dirigido.RData")
+
+#####################################################
+#             ----Red de transporte quito----
+#####################################################
+
+# Ajustar las columnas del dataframe edges
+colnames(edges) <- c("link_index", "Origen", "Destino", "length", "lower_bound", "upper_bound")
+
+# Crear ga uniendo lineaida y lineavuelta con edges
+ga <- data.table(unique(rbind(lineaida, lineavuelta)))
+ga <- ga %>% left_join(edges, by = c("Origen", "Destino"))
+# Crear nodos
+label <- case_when(
+  Stop$`short-name` == "Quitumbe|>" ~ "Quitumbe|>",
+  Stop$`short-name` == "Quitumbe<|" ~ "Quitumbe<|",
+  Stop$`short-name` == "Recreo|>" ~ "Recreo|>",
+  Stop$`short-name` == "Recreo<|" ~ "Recreo<|",
+  Stop$`short-name` == "Moran Valverde|>" ~ "Morán Valverde|>",
+  Stop$`short-name` == "Moran Valverde<|" ~ "Morán Valverde<|",
+  Stop$`short-name` == "El Labrador|>" ~ "El Labrador|>",
+  Stop$`short-name` == "El Labrador<|" ~ "El Labrador<|",
+  TRUE ~ NA_character_  # Usamos NA en lugar de NULL
+)
+
+# Crear nodos
+nodes <- Stop %>%
+  mutate(id = `stop-id`, label = label, title = `stop-id`, x = `x-coordinate`, y = `y-coordinate`+350,
+         color="#D35400" , shape="dot",front =17 )%>%
+  select(id, label, title, x, y,color,shape,front)
+
+# Definir las conexiones entre estaciones
+aristas <- data.frame(from = c(edges$Origen),
+                      to = c(edges$Destino),
+                      label= as.character(edges$link_index),
+                      font = list(size = 15, color = "black"),
+                      color = c(rep("#2E4053", nrow(edges))))
+
+scale_factor <- 0.1  # Ajusta este factor para acercar los nodos (menor valor = más cerca)
+layout_matrix <- as.matrix(nodes[, c("x", "y")]) * scale_factor
+# Graficar usando visNetwork con ajustes adicionales para una imagen más compacta
+visNetwork(nodes, aristas, width = "100%", height = "400px") %>%
+  visNodes(shape = "dot", borderWidth = 1, size = 12,font = list(size = 49))%>%
+  visEdges(smooth = list(enabled = TRUE, type = "curvedCW",size=5), arrows = "to",width = 4) %>%
+  visPhysics(stabilization = FALSE,
+             barnesHut = list(avoidOverlap = 1, gravitationalConstant = -2000, centralGravity = 0.3, springLength = 100, springConstant = 0.05)) %>%
+  visOptions(highlightNearest = F, nodesIdSelection = F) %>%
+  visLayout(randomSeed = 88) %>%
+  visIgraphLayout(layout = "layout.norm", layoutMatrix = layout_matrix)
+
+############################################################
+
+#                       ----POOL----
+############################################################
+
+#######################   C1    ######################
+
+c1_ida <-  data.table(read_excel("Excels trolebus/paradas-c.xlsx",sheet = 8))
+ga <- df_linea2(c1_ida)%>% left_join(edges, by = c("Origen", "Destino"))
+estaciones <- Stop %>%
+  mutate(id = `stop-id`, label =`short-name`, title = `stop-id`, x = `x-coordinate`, y = `y-coordinate`,color="#D35400") %>%
+  select(id, label, title, x, y,color)
+# Definir las conexiones entre estaciones
+aristas <- data.frame(from = c(ga$Origen),
+                      to = c(ga$Destino),
+                      #label= as.character(ga$link_index),
+                      font = list(size = 17, color = "black"),
+                      color = c(rep("#2E4053", nrow(ga))))
+# Crear el grafo
+visNetwork(estaciones, aristas, width = "100%", height = "600px") %>%
+  visNodes(shape = "dot",borderWidth = 1, size = 8) %>%
+  visEdges(smooth = list(enabled = T, type = "curvedCW", roundness = 0.1),arrows = "to") %>%
+  visPhysics(stabilization = FALSE) %>%
+  visOptions(highlightNearest = TRUE, nodesIdSelection = F) %>%
+  visLayout(randomSeed = 42) %>%
+  visIgraphLayout(layout = "layout.norm", layoutMatrix = layout_matrix)
+
+c1_ida <- df_linea2(c1_ida)
+c1_ida <- procesar_linea(edges,c1_ida,1)
+
+
+
+c1_vuelta <-  data.table(read_excel("Excels trolebus/paradas-c.xlsx",sheet = 10))
+ga <- df_linea2(c1_vuelta)%>% left_join(edges, by = c("Origen", "Destino"))
+estaciones <- Stop %>%
+  mutate(id = `stop-id`, label =`short-name`, title = `stop-id`, x = `x-coordinate`, y = `y-coordinate`) %>%
+  select(id, label, title, x, y)
+# Definir las conexiones entre estaciones
+aristas <- data.frame(from = c(ga$Origen),
+                      to = c(ga$Destino),
+                      label= as.character(ga$link_index),
+                      font = list(size = 17, color = "black"),
+                      color = c(rep("#F70D57", nrow(ga))))
+# Crear el grafo
+visNetwork(estaciones, aristas, width = "100%", height = "600px") %>%
+  visNodes(shape = "dot",borderWidth = 1, size = 8) %>%
+  visEdges(smooth = list(enabled = T, type = "curvedCW", roundness = 0.1),arrows = "to") %>%
+  visPhysics(stabilization = FALSE) %>%
+  visOptions(highlightNearest = TRUE, nodesIdSelection = TRUE) %>%
+  visLayout(randomSeed = 42) %>%
+  visIgraphLayout(layout = "layout.norm", layoutMatrix = layout_matrix)
+c1_vuelta <- df_linea2(c1_vuelta)
+c1_vuelta <- procesar_linea(edges,c1_vuelta,2)
+
+
+
+#######################   C2    ######################
+
+
+c2_ida <-  data.table(read_excel("Excels trolebus/paradas-c.xlsx",sheet = 12))
+
+ga <- df_linea2(c2_ida )%>% left_join(edges, by = c("Origen", "Destino"))
+estaciones <- Stop %>%
+  mutate(id = `stop-id`, label =`short-name`, title = `stop-id`, x = `x-coordinate`, y = `y-coordinate`) %>%
+  select(id, label, title, x, y)
+# Definir las conexiones entre estaciones
+aristas <- data.frame(from = c(ga$Origen),
+                      to = c(ga$Destino),
+                      label= as.character(ga$link_index),
+                      font = list(size = 17, color = "black"),
+                      color = c(rep("#F70D57", nrow(ga))))
+# Crear el grafo
+visNetwork(estaciones, aristas, width = "100%", height = "600px") %>%
+  visNodes(shape = "dot",borderWidth = 1, size = 8) %>%
+  visEdges(smooth = list(enabled = T, type = "curvedCW", roundness = 0.1),arrows = "to") %>%
+  visPhysics(stabilization = FALSE) %>%
+  visOptions(highlightNearest = TRUE, nodesIdSelection = TRUE) %>%
+  visLayout(randomSeed = 42) %>%
+  visIgraphLayout(layout = "layout.norm", layoutMatrix = layout_matrix)
+c2_ida <- df_linea2(c2_ida)
+c2_ida <- procesar_linea(edges,c2_ida,3)
+
+
+c2_vuelta <-  data.table(read_excel("Excels trolebus/paradas-c.xlsx",sheet = 14))
+
+ga <- df_linea2(c2_vuelta )%>% left_join(edges, by = c("Origen", "Destino"))
+estaciones <- Stop %>%
+  mutate(id = `stop-id`, label =`short-name`, title = `stop-id`, x = `x-coordinate`, y = `y-coordinate`) %>%
+  select(id, label, title, x, y)
+# Definir las conexiones entre estaciones
+aristas <- data.frame(from = c(ga$Origen),
+                      to = c(ga$Destino),
+                      label= as.character(ga$link_index),
+                      font = list(size = 17, color = "black"),
+                      color = c(rep("#F70D57", nrow(ga))))
+# Crear el grafo
+visNetwork(estaciones, aristas, width = "100%", height = "600px") %>%
+  visNodes(shape = "dot",borderWidth = 1, size = 8) %>%
+  visEdges(smooth = list(enabled = T, type = "curvedCW", roundness = 0.1),arrows = "to") %>%
+  visPhysics(stabilization = FALSE) %>%
+  visOptions(highlightNearest = TRUE, nodesIdSelection = TRUE) %>%
+  visLayout(randomSeed = 42) %>%
+  visIgraphLayout(layout = "layout.norm", layoutMatrix = layout_matrix)
+
+c2_vuelta <- df_linea2(c2_vuelta)
+c2_vuelta <- procesar_linea(edges,c2_vuelta,4)
+
+
+#######################   C4 ciclo   ######################
+
+c4_cerrado <-  data.table(read_excel("Excels trolebus/paradas-c.xlsx",sheet =16))
+
+ga <- df_linea2(c4_cerrado )%>% left_join(edges, by = c("Origen", "Destino"))
+estaciones <- Stop %>%
+  mutate(id = `stop-id`, label =`short-name`, title = `stop-id`, x = `x-coordinate`, y = `y-coordinate`) %>%
+  select(id, label, title, x, y)
+# Definir las conexiones entre estaciones
+aristas <- data.frame(from = c(ga$Origen),
+                      to = c(ga$Destino),
+                      label= as.character(ga$link_index),
+                      font = list(size = 17, color = "black"),
+                      color = c(rep("#F70D57", nrow(ga))))
+# Crear el grafo
+visNetwork(estaciones, aristas, width = "100%", height = "600px") %>%
+  visNodes(shape = "dot",borderWidth = 1, size = 8) %>%
+  visEdges(smooth = list(enabled = T, type = "curvedCW", roundness = 0.1),arrows = "to") %>%
+  visPhysics(stabilization = FALSE) %>%
+  visOptions(highlightNearest = TRUE, nodesIdSelection = TRUE) %>%
+  visLayout(randomSeed = 42) %>%
+  visIgraphLayout(layout = "layout.norm", layoutMatrix = layout_matrix)
+
+
+c4_cerrado <- df_linea2(c4_cerrado)
+c4_cerrado <- procesar_linea(edges,c4_cerrado,5)
+
+
+#######################   C6 ciclo   ######################
+
+
+c6_cerrado <-  data.table(read_excel("Excels trolebus/paradas-c.xlsx",sheet = 18))
+ga <- df_linea2(c6_cerrado)%>% left_join(edges, by = c("Origen", "Destino"))
+estaciones <- Stop %>%
+  mutate(id = `stop-id`, label =`short-name`, title = `stop-id`, x = `x-coordinate`, y = `y-coordinate`) %>%
+  select(id, label, title, x, y)
+# Definir las conexiones entre estaciones
+aristas <- data.frame(from = c(ga$Origen),
+                      to = c(ga$Destino),
+                      label= as.character(ga$link_index),
+                      font = list(size = 17, color = "black"),
+                      color = c(rep("#F70D57", nrow(ga))))
+# Crear el grafo
+visNetwork(estaciones, aristas, width = "100%", height = "600px") %>%
+  visNodes(shape = "dot",borderWidth = 1, size = 8) %>%
+  visEdges(smooth = list(enabled = T, type = "curvedCW", roundness = 0.1),arrows = "to") %>%
+  visPhysics(stabilization = FALSE) %>%
+  visOptions(highlightNearest = TRUE, nodesIdSelection = TRUE) %>%
+  visLayout(randomSeed = 42) %>%
+  visIgraphLayout(layout = "layout.norm", layoutMatrix = layout_matrix)
+
+c6_cerrado <- df_linea2(c6_cerrado)
+c6_cerrado <- procesar_linea(edges,c6_cerrado,6)
+
+Pool <- rbind(c1_ida,c1_vuelta,
+              c2_ida,c2_vuelta,
+              c4_cerrado,
+              c6_cerrado)
+Pool <- Pool %>% arrange(`line-id`)
+write.table(Pool, file = "Basis trole dirigido/Pool.giv", sep = "; ", row.names = FALSE, quote = FALSE)
+
+
+############################################################
+
+#                       Matriz Od
+############################################################
+# paradas_orden<-paradas[,name,X][order(X)] %>% pull(name)
+# OD <- read_excel("Excels trolebus/paradas-c.xlsx",sheet = 19)
+# OD %>% select(name,all_of(paradas_orden))
+# OD<- OD[match(paradas_orden,OD$name),][,c("name",paradas_orden),with=F]
+# 
+# row.names<-unname(unlist(OD[,1]))
+# OD <- as.matrix(OD[,-1])
+# rownames(OD)<- row.names
+# OD
+# 
+# OD <- data.frame(OD)
+# colnames(OD) <- paradas_orden
+# write.xlsx(OD, "od_trole_modificar.xlsx", rowNames = TRUE, colNames = TRUE)
+# 
+# 
+# OD <- as.matrix(OD)
+# 
+# direccion_vuelta <- paste0(row.names,"<|")
+# direccion_ida <- paste0(row.names,"|>")
+# paradas_completas <- c(direccion_ida, direccion_vuelta)
+# 
+# triangular_superior <- OD
+# triangular_superior[!upper.tri(OD, diag = TRUE)] <- 0 
+# 
+# triangular_inferior <- OD
+# triangular_inferior[!lower.tri(OD, diag = TRUE)] <- 0 
+# 
+# 
+# OD_nueva <- matrix(0,nrow = 2*nrow(OD),ncol = 2*nrow(OD))
+# colnames(OD_nueva)<-paradas_completas
+# rownames(OD_nueva)<-paradas_completas
+# 
+# OD_nueva[1:nrow(OD), 
+#          1:ncol(OD)] <-triangular_superior
+# OD_nueva[(nrow(OD)+1):(2*nrow(OD)), 
+#          (nrow(OD)+1):(2*nrow(OD))] <-triangular_inferior
+# 
+# OD_nueva <- data.frame(OD_nueva)
+# colnames(OD_nueva) <- paradas_completas
+# #write.xlsx(OD_nueva, "OD_NUEVA_trole.xlsx", rowNames = TRUE, colNames = TRUE)
+# 
+# OD_nueva <-read_excel("OD_NUEVA_trole.xlsx")
+# 
+# OD_largo_ent <- OD_nueva %>%
+#   pivot_longer(cols = -name, names_to = "Destino", values_to = "Valor") %>%
+#   rename(Origen = name)%>% mutate(Valor=ceiling(Valor))
+# colnames(OD_largo_ent) <- c("left-stop-id", "right-stop-id", "customers")
+# OD <- OD_largo_ent
+# indice_paradas <- setNames(Stop$`stop-id`, Stop$`long-name`)
+# 
+# OD$`left-stop-id` <- indice_paradas[OD$`left-stop-id`]
+# OD$`right-stop-id` <- indice_paradas[OD$`right-stop-id`]
+# OD <- OD %>% arrange(`left-stop-id`)
+# OD %>% mutate(n= seq(1,nrow(OD)))%>% filter(`left-stop-id` ==35 & `right-stop-id` ==36)
+# 
+# write.table(OD, file = "Trole ida y vuelta ptn/OD.giv", sep = "; ", row.names = FALSE, quote = FALSE)
+# 
+
+OD <- read_excel("Excels trolebus/paradas-c.xlsx",sheet = 19)
+OD_largo_ent <- OD %>%
+  pivot_longer(cols = -name, names_to = "Destino", values_to = "Valor") %>%
+  rename(Origen = name)%>% mutate(Valor=ceiling(Valor))
+colnames(OD_largo_ent) <- c("left-stop-id", "right-stop-id", "customers")
+OD <- OD_largo_ent
+indice_paradas <- setNames(Stop$`stop-id`, Stop$`long-name`)
+
+OD$`left-stop-id` <- indice_paradas[OD$`left-stop-id`]
+OD$`right-stop-id` <- indice_paradas[OD$`right-stop-id`]
+OD <- OD %>% arrange(`left-stop-id`,`right-stop-id`)
+write.table(OD, file = "Basis trole dirigido/OD.giv", sep = "; ", row.names = FALSE, quote = FALSE)
+
+dim(OD %>% filter(customers>0))
+sum(OD$customers)
+############################################################
+
+#                       ----POOL LINTIM----
+############################################################
+
+
+# Leer archivo GIV delimitado por comas
+loadlintim <- data.table(read.csv("Basis trole dirigido/Pool1.giv", header = TRUE, sep = ";"))
+colnames(loadlintim) <- c("lineid","order","link_index")
+lineadelintim <- loadlintim %>% filter(lineid==7)
+
+ga <- lineadelintim%>% left_join(edges, by = c("link_index"))
+estaciones <- Stop %>%
+  mutate(id = `stop-id`, label =`short-name`, title = `stop-id`, x = `x-coordinate`, y = `y-coordinate`,color="#D35400") %>%
+  select(id, label, title, x, y,color)
+# Definir las conexiones entre estaciones
+aristas <- data.frame(from = c(ga$Origen),
+                      to = c(ga$Destino),
+                      #label= as.character(ga$link_index),
+                      font = list(size = 17, color = "black"),
+                      color = c(rep("#2E4053", nrow(ga))))
+# Crear el grafo
+visNetwork(estaciones, aristas, width = "100%", height = "600px") %>%
+  visNodes(shape = "dot",borderWidth = 1, size = 8) %>%
+  visEdges(smooth = list(enabled = T, type = "curvedCW", roundness = 0.1),arrows = "to") %>%
+  visPhysics(stabilization = FALSE) %>%
+  visOptions(highlightNearest = TRUE, nodesIdSelection = F) %>%
+  visLayout(randomSeed = 42) %>%
+  visIgraphLayout(layout = "layout.norm", layoutMatrix = layout_matrix)
+
+
+
+
+

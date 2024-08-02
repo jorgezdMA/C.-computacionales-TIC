@@ -1,0 +1,85 @@
+#stop-id; short-name; long-name; x-coordinate; y-coordinate
+1; Guamani|>; Guamani|>; -4091.19919835939; -10702.4234675504
+2; Guamani<|; Guamani<|; -4241.19919835939; -10452.4234675504
+3; Santo Tomas|>; Santo Tomas|>; -4219.59590632771; -9839.05147139356
+4; Santo Tomas<|; Santo Tomas<|; -4369.59590632771; -9589.05147139356
+5; San Jose de Guamani Caupicho|>; San Jose de Guamani Caupicho|>; -4204.22594600054; -9175.97829676233
+6; San Jose de Guamani Caupicho<|; San Jose de Guamani Caupicho<|; -4354.22594600054; -8925.97829676233
+7; El Beaterio Nueva Aurora II|>; El Beaterio Nueva Aurora II|>; -4080.63367347524; -8287.92583273351
+8; El Beaterio Nueva Aurora II<|; El Beaterio Nueva Aurora II<|; -4230.63367347524; -8037.92583273351
+9; La Bretaña|>; La Bretaña|>; -3848.3890905705; -7592.87111938559
+10; La Bretaña<|; La Bretaña<|; -3998.3890905705; -7342.87111938559
+11; Guayanay Nan|>; Guayanay Nan|>; -3418.97142805008; -6946.22465644591
+12; Guayanay Nan<|; Guayanay Nan<|; -3568.97142805008; -6696.22465644591
+13; Quitumbe|>; Quitumbe|>; -4788.36305976089; -5804.29953530245
+14; Quitumbe<|; Quitumbe<|; -4938.36305976089; -5554.29953530245
+15; Quillallacta|>; Quillallacta|>; -4142.27932943613; -6056.89829652757
+16; Quillallacta<|; Quillallacta<|; -4292.27932943613; -5806.89829652757
+17; Otoya|>; Otoya|>; -3811.98679040896; -6156.66021829471
+18; Otoya<|; Otoya<|; -3961.98679040896; -5906.66021829471
+19; El Capuli|>; El Capuli|>; -3281.27345286368; -6218.09587796964
+20; El Capuli<|; El Capuli<|; -3431.27345286368; -5968.09587796964
+21; Pacarillacta|>; Pacarillacta|>; -2990.74103802641; -5447.62722538225
+22; Pacarillacta<|; Pacarillacta<|; -3140.74103802641; -5197.62722538225
+23; Puente de Guajalo|>; Puente de Guajalo|>; -2807.25070074981; -4943.78204462305
+24; Puente de Guajalo<|; Puente de Guajalo<|; -2957.25070074981; -4693.78204462305
+25; San Cristobal|>; San Cristobal|>; -2495.71808566339; -4384.56570580043
+26; San Cristobal<|; San Cristobal<|; -2645.71808566339; -4134.56570580043
+27; Ayapamba|>; Ayapamba|>; -2152.83709708904; -3928.33559553698
+28; Ayapamba<|; Ayapamba<|; -2302.83709708904; -3678.33559553698
+29; El Comercio|>; El Comercio|>; -1827.70218315232; -3176.34446421079
+30; El Comercio<|; El Comercio<|; -1977.70218315232; -2926.34446421079
+31; San Bartolo|>; San Bartolo|>; -1656.35481052508; -2780.35574813001
+32; San Bartolo<|; San Bartolo<|; -1806.35481052508; -2530.35574813001
+33; Eplicachima|>; Eplicachima|>; -1362.39905324788; -2310.26332165673
+34; Eplicachima<|; Eplicachima<|; -1512.39905324788; -2060.26332165673
+35; Pujili|>; Pujili|>; -1131.97065507213; -1858.5631283354
+36; Pujili<|; Pujili<|; -1281.97065507213; -1608.5631283354
+37; Recreo|>; Recreo|>; -943.859058124595; -1014.2837873064
+38; Recreo<|; Recreo<|; -1093.8590581246; -764.283787306398
+39; Chimbacalle|>; Chimbacalle|>; -235.630090201972; -226.839249636978
+40; Chimbacalle<|; Chimbacalle<|; -385.630090201972; 23.1607503630221
+41; Teatro Mexico|>; Teatro Mexico|>; 115.382232469507; 281.0959644299
+42; Teatro Mexico<|; Teatro Mexico<|; -34.6177675304934; 531.0959644299
+43; Montufar|>; Montufar|>; 351.936226735008; 549.556517200544
+44; Montufar<|; Montufar<|; 201.936226735008; 799.556517200544
+45; Playon de la Marin|>; Playon de la Marin|>; 639.789871593821; 1658.97026386671
+46; Playon de la Marin<|; Playon de la Marin<|; 489.789871593821; 1908.97026386671
+47; Marin Central|>; Marin Central|>; 465.789175454061; 2348.67763080634
+48; Marin Central<|; Marin Central<|; 315.789175454061; 2598.67763080634
+49; Simon Bolivar|>; Simon Bolivar|>; 1110.7171559328; 3024.94690130651
+50; Simon Bolivar<|; Simon Bolivar<|; 960.717155932798; 3274.94690130651
+51; Eugenio Espejo|>; Eugenio Espejo|>; 1548.35192447016; 3206.12994222902
+52; Eugenio Espejo<|; Eugenio Espejo<|; 1398.35192447016; 3456.12994222902
+53; Casa Cultura|>; Casa Cultura|>; 1848.54361047235; 3759.53065502457
+54; Casa Cultura<|; Casa Cultura<|; 1698.54361047235; 4009.53065502457
+55; Galo Plaza|>; Galo Plaza|>; 2123.93451288994; 4005.02436636388
+56; Galo Plaza<|; Galo Plaza<|; 1973.93451288994; 4255.02436636388
+57; Manuelña Cañizares|>; Manuelña Cañizares|>; 2471.48720997316; 4251.81907660887
+58; Manuelña Cañizares<|; Manuelña Cañizares<|; 2321.48720997316; 4501.81907660887
+59; Baca Ortiz|>; Baca Ortiz|>; 2877.91313022317; 4487.81791702844
+60; Baca Ortiz<|; Baca Ortiz<|; 2727.91313022317; 4737.81791702844
+61; Orellana|>; Orellana|>; 3112.72278388229; 4834.20832322352
+62; Orellana<|; Orellana<|; 2962.72278388229; 5084.20832322352
+63; La Paz|>; La Paz|>; 3297.21984659531; 5200.0874270387
+64; La Paz<|; La Paz<|; 3147.21984659531; 5450.0874270387
+65; San Martin|>; San Martin|>; 3520.18579241983; 5713.93772559054
+66; San Martin<|; San Martin<|; 3370.18579241983; 5963.93772559054
+67; Bellavista|>; Bellavista|>; 3574.7074143748; 5973.5840766672
+68; Bellavista<|; Bellavista<|; 3424.7074143748; 6223.5840766672
+69; Eloy Alfaro|>; Eloy Alfaro|>; 3735.24951348582; 6468.34115811065
+70; Eloy Alfaro<|; Eloy Alfaro<|; 3585.24951348582; 6718.34115811065
+71; Benalcazar|>; Benalcazar|>; 3791.37936874386; 6860.95100035518
+72; Benalcazar<|; Benalcazar<|; 3641.37936874386; 7110.95100035518
+73; Naciones Unidas|>; Naciones Unidas|>; 3841.31247887982; 7166.99672523886
+74; Naciones Unidas<|; Naciones Unidas<|; 3691.31247887982; 7416.99672523886
+75; 24 de mayo|>; 24 de mayo|>; 3958.22698975168; 7639.26635448262
+76; 24 de mayo<|; 24 de mayo<|; 3808.22698975168; 7889.26635448262
+77; Los Sauces|>; Los Sauces|>; 4050.97693099338; 8080.15893507935
+78; Los Sauces<|; Los Sauces<|; 3900.97693099338; 8330.15893507935
+79; Jipijapa|>; Jipijapa|>; 4147.90850952419; 8656.2181950286
+80; Jipijapa<|; Jipijapa<|; 3997.90850952419; 8906.2181950286
+81; Rio Coca|>; Rio Coca|>; 4439.55474290811; 8825.78968243115
+82; Rio Coca<|; Rio Coca<|; 4289.55474290811; 9075.78968243115
+83; Universidades|>; Universidades|>; 2468.09122533316; 3858.28020477854
+84; Universidades<|; Universidades<|; 2318.09122533316; 4108.28020477854

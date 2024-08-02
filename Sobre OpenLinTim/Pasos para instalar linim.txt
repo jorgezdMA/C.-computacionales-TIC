@@ -1,0 +1,112 @@
+Obs: Los pasos que están indicados en este txt son genéricos, cada computador tiene distinto proceso que pueden ser resueltos de forma específica.
+
+
+################Instalacion de WSL para distribuciòn Debian###################
+Para instalar Debian en Windows Subsystem for Linux (WSL), sigue estos pasos:
+
+-Habilita WSL:
+
+-Abre PowerShell como administrador.
+
+-Ejecuta el siguiente comando para habilitar la característica de WSL:
+
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+-Habilita la característica de Plataforma de Máquina Virtual:
+
+-Asegúrate de habilitar esta característica para poder ejecutar distribuciones de Linux en WSL. Ejecuta el siguiente comando en PowerShell:
+
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+-Descarga e instala el paquete de actualización del kernel de WSL 2:
+
+-Ve a la página de descargas de Microsoft y descarga el paquete de actualización del kernel de WSL 2 para Windows. Instálalo.
+Establece WSL 2 como versión predeterminada en el siguiente enlace:
+
+https://learn.microsoft.com/es-es/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package
+
+-Abre PowerShell y ejecuta el siguiente comando para establecer WSL 2 como la versión predeterminada:
+
+wsl --set-default-version 2
+
+-Descarga e instala Debian desde Microsoft Store:
+
+Abre Microsoft Store y busca "Debian". Selecciona la versión de Debian que prefieras y haz clic en "Instalar".
+
+Configura Debian:
+Una vez que la instalación esté completa, se te pedirá que configures un nombre de usuario y una contraseña.
+
+Ahora actualiza los repositorios:
+Abre la terminal de Debian y ejecuta los siguientes comandos para actualizar los repositorios e instalar las últimas actualizaciones:
+
+sudo apt update
+sudo apt upgrade
+
+
+################Instalación de Gurobi###################
+
+
+-Descargar Gurobi de la pagina web 
+gurobi10.0.2_linux64.tar.gz
+-Ponerlo en alguna carpeta de Downloads en Home, luego pasarlo a la carpeta opt y descomprimirlo con los siguientes códigos
+
+sudo mv ~/Downloads/gurobi10.0.2_linux64.tar.gz /opt/
+
+-Cambiar el directorio a opt
+
+cd /opt/
+
+-Descomprimir el archivo
+
+sudo tar -xvf gurobi10.0.2_linux64.tar.gz
+
+-Luego ir Home a al archivo .bashrc y añadir lo siguiente: 
+
+export GUROBI_HOME=/opt/gurobi1002/linux64
+export CLASSPATH=${GUROBI_HOME}/lib/gurobi.jar:${CLASSPATH}
+export LD_LIBRARY_PATH=${GUROBI_HOME}/lib/:${LD_LIBRARY_PATH}
+export PATH=${GUROBI_HOME}/bin:${PATH}
+
+
+################Instalación de LinTim###################
+
+-Primero instala python3 en la terminal de Debian:
+
+sudo apt install python3
+
+-Luego las dependencias necesarios de LinTim:
+
+sudo apt-get install build-essential openjdk-11-jdk ant graphviz python3-pip
+sudo pip3 install numpy networkx pulp holoviews
+
+-de haber problema con lo anterior, instalar de la siguiente forma para cada paquete:
+
+sudo apt install python3-build-essential
+sudo apt install python3-openjdk-11-jdk
+etc
+
+-De haber problema con los dos pasos anteriores se recomienda crear un environment para la gestion de paquetes de python, e instalarlos ahi con el comando pip.
+
+-Luego instalar git en debian:
+
+sudo apt install git
+
+-Verificar la versión de git con:
+
+git --version
+
+-Ahora dirigirse a la carpeta donde se desea instalar LinTim, previamente vamos al repositorio de LinTim en el siguiente enlace:
+
+https://gitlab.rlp.net/lintim/OpenLinTim
+
+-Nos dirigimos en el repositorio a la carpeta src/installation y descargamos los scripts install.py , util.py y los colocamos en la 
+donde vamos a instalar LinTim; luego en la terminal nos colocamos en esa carpeta y corremos el scrip con:
+
+python3 install.py
+
+-En la fase que nos pide instalar Gurobi le damos a ¨n¨ pues ya lo instalamos previamente
+
+
+
+
+

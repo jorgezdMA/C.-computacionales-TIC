@@ -1,0 +1,74 @@
+od_use_network_distance; true
+od_remove_uncovered_demand_points; false
+#load_generator_model; "LOAD_FROM_EAN"
+load_generator_model; "LOAD_FROM_PTN"
+load_generator_lower_frequency_factor; 1.0
+load_generator_upper_frequency_factor; 1.75
+load_generator_fix_upper_frequency; false
+load_generator_fixed_upper_frequency; 150
+load_generator_type; SP
+#load_generator_type; REWARD
+#load_generator_type; REDUCTION
+load_generator_number_of_shortest_paths; 2
+load_generator_sp_distribution_factor; -0.1
+load_generator_max_iteration; 10
+load_generator_scaling_factor; 50
+load_generator_use_cg; false
+load_generator_min_change_time_factor; 4
+load_generator_add_additional_load; false
+###################################################### 
+##########              Lpool         ###############
+#####################################################
+#lpool_model; "tree_based"
+#lpool_model; "k_shortest_paths"
+#lpool_model; "restricted_line_duration"
+lpool_model; "terminal-to-terminal"
+lpool_ratio_od; 1
+lpool_add_shortest_paths; true
+lpool_ratio_shortest_paths; 0.5
+lpool_max_iterations; 50
+lpool_costs_fixed; 50
+lpool_costs_length; 0.5
+lpool_costs_edges; 0.5
+lpool_costs_vehicles; 0
+lpool_min_edges; 5
+lpool_min_distance_leaves; 15
+lpool_node_degree_ratio; 0.3
+lpool_min_cover_factor; 2
+lpool_max_cover_factor; 3
+lpool_number_shortest_paths; 3
+lpool_coordinate_factor; 1
+lpool_restricted_maximum_buffer_time; 10
+lpool_restricted_allow_half_period; false
+lpool_restrict_turns; false
+lpool_append_single_edges; false
+lpool_restrict_forbidden_edges; false
+lpool_restrict_terminals; true
+lpool_costs_fixed; 50
+lpool_costs_length; 0.01361667
+lpool_costs_edges; 0.05
+lpool_costs_vehicles; 0
+###################################################### 
+##########           Line Concept        #############
+#####################################################
+lc_budget; 360
+lc_solver; xpress
+lc_model; traveling-time-cg
+lc_traveling_time_cg_constraint_type; 3
+lc_traveling_time_cg_relaxation_constraint; true
+lc_traveling_time_cg_cover; false
+lc_traveling_time_cg_k_shortest_paths; 2
+#lc_traveling_time_cg_add_sol_1; true
+#lc_traveling_time_cg_add_sol_1_name; "line-planning/CostH7.giv"
+#lc_traveling_time_cg_add_sol_2; true
+#lc_traveling_time_cg_add_sol_2_name; "line-planning/CostH7.giv"
+#lc_traveling_time_cg_add_sol_3; true
+#lc_traveling_time_cg_add_sol_3_name; "line-planning/Direct.giv"
+lc_traveling_time_cg_max_iterations; 100000
+lc_traveling_time_cg_termination_value; 0.0001
+lc_traveling_time_cg_weight_change_edge; 5
+lc_traveling_time_cg_weight_od_edge; 2
+lc_traveling_time_cg_solve_ip; true
+lc_traveling_time_cg_print_paths; true
+lc_traveling_time_cg_print_path_variables; true
+lc_write_lp_file; true
